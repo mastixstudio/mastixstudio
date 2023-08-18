@@ -1,7 +1,7 @@
 # Welcome to MASTIX Studio on GitHub!
 
 <p align="center">
-  ![MASTIX Studio Logo](./assets/mastix-logo.png)
+  ![MASTIX Studio Logo](assets/mastix-logo.png)
 </p>
 
 ### Overview  
