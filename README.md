@@ -3,8 +3,6 @@
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo.png?raw=true" alt="MASTIX Studio Logo" style="width: 50%;">
 </p>
 
-### Overview  
-
 MASTIX Studio is a state-of-the-art risk management software designed to help you master the complexity of both modern risk management and the evolving demands of ALM.
 
 It has been developed with meticulous attention to the properties that enable a holistic approach to risk: comprehensive  instrument coverage, rich calculation details, and high performance.
