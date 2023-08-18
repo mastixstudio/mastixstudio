@@ -12,4 +12,4 @@ It has been developed with meticulous attention to the properties that enable a 
 Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance makes the calculations tractable and accessible throughout the organization.
   
 
-Check out [mastix.se](https://www.mastix.se/) or reach out to [info@mastix.se](mailto:info@mastix.se) for more info. 
+Check out [www.mastix.se](https://www.mastix.se/) or reach out to [info@mastix.se](mailto:info@mastix.se) for more info. 
