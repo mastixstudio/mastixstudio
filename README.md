@@ -1,7 +1,6 @@
 # Welcome to MASTIX Studio on GitHub!
-
 <p align="center">
-  ![MASTIX Studio Logo](assets/mastix-logo.png)
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo.png?raw=true" alt="MASTIX Studio Logo" style="width: 50%;">
 </p>
 
 ### Overview  
