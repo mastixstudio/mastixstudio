@@ -17,6 +17,14 @@ It has been developed with meticulous attention to the properties that enable a 
 
 Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance makes the calculations tractable and accessible throughout the organization.
 
+MASTIX Studio offers:
+
+- Consistency: Reliable and uniform calculations for credit, market, and liquidity risk, and consistency across risk, reporting, and accounting.
+- Performance: Fast and detailed risk calculations for a broad range of financial instruments.
+- Future-Proof Architecture: Designed to exceed today's requirements and with an architecture prepared for AI implementations.
+
+Moreover, its modular and open design ensures seamless integration with both current and future systems, positioning your institution to stay ahead of emerging demands.
+
 ## Notebooks
 
 The notebooks showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
