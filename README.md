@@ -35,9 +35,7 @@ Holistic risk management & ALM  | All valuations and risk metrics calculated con
 
 ## Notebooks
 
-The notebooks showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
-
-[Notebooks](/notebooks/)
+The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
 
 ## Contact
 
