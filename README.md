@@ -6,7 +6,8 @@
 ## Table of Contents
 
 - [Introducing MASTIX Studio](#introduction)
-- [List of Notebooks](#notebooks)
+- [Introduction to Adjoint Algorithmic Differentiation (AAD)](https://github.com/mastixstudio/mastixstudio/IntroductionToAAD.md)
+- [Notebooks](#notebooks)
 - [Contact](#contact)
 
 ## Introduction
