@@ -1,4 +1,4 @@
-# Adjoint Algorithmic Differentiation (AAD) Guide
+# Introduction to Adjoint Algorithmic Differentiation (AAD)
 
 Adjoint Algorithmic Differentiation (AAD) has become a widespread tool for efficient risk calculations. AAD presents game-changing efficiency benefits that revolutionize risk management. 
 However, while the advantages are transformative, implementing AAD effectively is very challenging. Simple or straightforward implementations of AAD are often insufficient for bank-wide usage. 
