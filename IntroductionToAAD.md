@@ -7,9 +7,21 @@ And modifying calculations within legacy systems is often not a feasible workaro
 
 
 ## Table of Contents
+- [Motivation](#motivation)
 - [Key Concepts](#key-concepts)
-- [Terminology in MASTIX Studio](#terminology)
+  - Computational graph
+  - Forward sweep
+  - Reverse sweep
+- [Terminology in MASTIX Studio](#terminology-in-mastix-studio)
+  - Outer reverse & inner reverse
 - [Benefits](#benefits)
+
+## Motivation 
+
+In finance, assessing risk is deeply tied to understanding sensitivities — how financial outcomes shift in response to parameter variations. Traditional methods to compute sensitivities have been computationally intensive and often intractable for bank-wide calculations. Adjoint Algorithmic Differentiation (AAD) offers a way to calculate these sensitivities with exceptional efficiency. With this capability, financial institutions can increase transparency and enhance processes: from detailed stress testing to deploying advanced AI techniques.
+
+At its core, AAD computes the gradient of a function by breaking its operations down into basic steps, which are then traversed through dual forward and reverse sweeps. This intricate process enables AAD to efficiently capture the sensitivity of a function's output concerning its input variables. Its efficiency particularly shines in scenarios where the number of inputs vastly outweighs the number of outputs.
+
 
 ## Key Concepts
 
