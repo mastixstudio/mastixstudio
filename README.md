@@ -6,7 +6,7 @@
 ## Table of Contents
 
 - [Introducing MASTIX Studio](#introduction)
-- [Introduction to Adjoint Algorithmic Differentiation (AAD)](https://github.com/mastixstudio/mastixstudio/blob/maain/IntroductionToAAD.md)
+- [Adjoint Algorithmic Differentiation](#adjoint-algorithmic-differentiation)
 - [Notebooks](#notebooks)
 - [Contact](#contact)
 
@@ -37,6 +37,10 @@ Holistic risk management & ALM  | All valuations and risk metrics calculated con
 ## Notebooks
 
 The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
+
+## Adjoint Algorithmic Differentiation
+
+Adjoint Algorithmic Differentiation (AAD), also known as automatic differentiation, is a powerful method for efficiently computing derivatives, especially suited for high-dimensional problems. For more detailed information see [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
 
 ## Contact
 
