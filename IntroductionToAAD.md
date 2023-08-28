@@ -48,7 +48,8 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
 
 - **Efficiency in Handling Independent Variables**: To boost efficiency, independent variables are excluded from the tape. Nodes performing rudimentary operations on these independent variables, termed as "interior nodes," are also kept outside both the tape and the high-performance graph. 
 
-The first step is to create a computational graph representing the the differents steps of the calculation.
+## Summary of concepts
+
 
 - **Computational Graph**: The steps of a calculation represented as nodes in a graph. Within this graph:
   - **Node**: Represents an operation (e.g., addition, multiplication).
@@ -61,12 +62,18 @@ The first step is to create a computational graph representing the the different
   This step backpropagates sensitivities from the output to the inputs, using the chain rule in reverse at each node.
 - **Tape**: A data structure that records operations performed during the forward computation, allowing the reverse sweep to retrace the computation.
   
-## Summary of concepts
 
 | Term | Meaning |
 |---|---|
-| **Forward Sweep** |The initial pass where the function is evaluated and the operations are recorded on the tape.|
+| **Computational Graph** |The steps of a calculation represented as nodes in a graph. Within this graph:
+| **Node** | Represents an operation (e.g., addition, multiplication).|
+| **Edge** | Represents an intermediate variable or result.|
+|**Tape/Trace/Wengert list**| A data structure that records operations performed during the forward computation, allowing the reverse sweep to retrace the computation.|
+| **Forward Sweep** | The initial pass where the function is evaluated and the operations are recorded on the tape.|
 | **Reverse Sweep** | After computing the function's value in a forward pass, AAD performs a reverse sweep. This step backpropagates sensitivities from the output to the inputs, using the chain rule in reverse at each node. |
+| **Outer reverse** | A node in the optimized "outer" graph that will be traversed in the reverse sweep.|
+| **Interior node** | A node in the "outer" graph not recorded on the tape.|
+| **Constant** | An input to the calculation, which is constant for a particular evaluation of the function.|
   
 The calculation tree in MASTIX Studio is highly optimized. There are several types of nodes in the calculation tree.
 The nodes in MASTIX Studio are called *reverses* since a reverse sweep of the nodes determines the derivatives. 
