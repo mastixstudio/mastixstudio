@@ -24,6 +24,11 @@ MASTIX Studio offers:
 
 Moreover, its modular and open design ensures seamless integration with both current and future systems, positioning your institution to stay ahead of emerging demands.
 
+<p align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/MASTIX Studio Overview.png?raw=true" alt="MASTIX Studio Overview" style="width: 50%;">
+</p>
+
+
 ## Features
 
 
