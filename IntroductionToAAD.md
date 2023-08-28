@@ -28,13 +28,25 @@ AAD computes the sensitivities of a function by breaking its operations down int
 The process can be broken down conceptually in a few steps:
 
 - **Decomposing the calculation**
-  Central to AAD is decomposing a complex function into a series of basic operations. 
+  Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify operations or variables, and edges depict the flow or dependencies of these operations.
+  
 - **Forward sweep**
-  A computational graph is constructed during the forward sweep. This graph is a visual representation where nodes represent operations or variables, and edges depict the flow or dependencies of these operations. For each basic operation in the forward sweep, the function is evaluated and the intermediate results are stored. This construction and storing process is often likened to "recording on a tape" due to its meticulous documentation of every operation and outcome.
+  During the forward pass, the function is evaluated at a specific point, moving from input to output nodes. As the function progresses, each intermediate result is     sequentially recorded on a tape—a linear data structure. This tape chronologically logs every operation and provides a step-by-step history of operations for the upcoming   reverse pass.
+  
 - **Reverse sweep**
-  After the forward pass, the reverse sweep begins by traversing the computational graph backward, from output to input. During this phase, AAD uses the chain rule of calculus to compute the derivatives (or adjoints). The stored intermediate values from the forward sweep are reused, eliminating any redundant calculations and enhancing efficiency.
+  In the reverse pass, the computational graph is retraced using the tape, starting from the output and working backward to the inputs. Using the chain rule and the sequence of operations recorded on the tape, sensitivities for the nodes are combined to calculate the sensitivities of the function.
 
 The sensitivities derived from AAD represent how the function's output changes in response to variations in each input, but it's important to understand that these sensitivities are calculated at a specific set of input values. These sensitivities, therefore, offer a snapshot of the function's behavior at that particular input point.
+
+
+
+## Efficient AAD in MASTIX Studio
+
+While the foundational principles of Adjoint Algorithmic Differentiation (AAD) are powerful, a straightforward implementation might not deliver the optimal performance required for high-frequency, large-scale computations. MASTIX Studio pioneers a cutting-edge approach to enhance efficiency and offer more versatile analytics.
+
+- **High-Performance Graph Construction**: Beginning with the computational graph, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph, which we term the "high-performance graph." Given that the high-performance graph has selectively "hidden" certain nodes during optimization, and that the nodes that remain on this graph are traversed during the reverse pass, these nodes are aptly named "outer reverses."
+
+- **Efficiency in Handling Independent Variables**: To boost efficiency, independent variables are excluded from the tape. Nodes performing rudimentary operations on these independent variables, termed as "interior nodes," are also kept outside both the tape and the high-performance graph. 
 
 The first step is to create a computational graph representing the the differents steps of the calculation.
 
@@ -49,7 +61,7 @@ The first step is to create a computational graph representing the the different
   This step backpropagates sensitivities from the output to the inputs, using the chain rule in reverse at each node.
 - **Tape**: A data structure that records operations performed during the forward computation, allowing the reverse sweep to retrace the computation.
   
-## Terminology in MASTIX Studio
+## Summary of concepts
 
 | Term | Meaning |
 |---|---|
