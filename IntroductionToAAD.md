@@ -1,9 +1,10 @@
 # Introduction to Adjoint Algorithmic Differentiation (AAD)
 
-Adjoint Algorithmic Differentiation (AAD)[^1] has become a widespread tool for efficient risk calculations. AAD presents game-changing efficiency benefits that revolutionize risk management. 
-However, while the advantages are transformative, implementing AAD is very challenging. Simple or straightforward implementations of AAD are not sufficient for bank-wide usage. 
-And modifying calculations within legacy systems to support AAD is not a feasible workaround, as most legacy architecture inherently prevents the integration of AAD.
+Adjoint Algorithmic Differentiation (AAD)[^1] has emerged as a game-changing tool in risk management, driving unprecedented efficiencies in risk calculations.
 
+However, while the advantages are transformative, implementing AAD for large-scale application is challenging. Simple or straightforward implementations of AAD are not sufficient for bank-wide usage. 
+
+And modifying calculations within legacy systems to support AAD is not a feasible workaround, as most legacy architecture inherently prevents the integration of AAD.
 
 
 ## Table of Contents
@@ -67,4 +68,4 @@ A typical example is a sub-graph with one input and one output:
 This graph can be calculated more efficiently with forward mode algorithmic differentiation, i.e. using only a forward sweep.
 
 
-[^1]: Algorithmic Differentiation is also known as Automatic Differentiation or autodiff. Sometimes, it is referred to using the names of specific implementations, such as autograd.
+[^1]: Algorithmic Differentiation is also known as Automatic Differentiation or *autodiff*. Sometimes, it is referred to using the names of specific implementations, such as *autograd*.
