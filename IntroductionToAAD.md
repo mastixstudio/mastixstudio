@@ -28,7 +28,7 @@ The methodology can be broken down conceptually in a few parts:
 
 - **Decomposing the function**
   Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured.
-.
+
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/tree-basic-operation.png?raw=true" alt="Basic operation" style="width: 30%;">
   <br/>
@@ -47,8 +47,9 @@ The methodology can be broken down conceptually in a few parts:
 
 - **Forward sweep or forward pass**
   During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of operations.
+  
   <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/forward-sweep.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/forward-sweep.png?raw=true" alt="Computational graph" style="width: 70%;">
   <br/>
   <i>Figure 3: Forward sweep.</i>
   <br/>
@@ -57,10 +58,12 @@ The methodology can be broken down conceptually in a few parts:
 
 - **Reverse sweep or reverse pass**
   In the reverse sweep, the computational graph is retraced using the tape from the forward sweep, starting from the output and working backward to the inputs. Using the chain rule and the sequence of operations recorded on the tape, sensitivities for the nodes are combined to calculate the sensitivities of the function.
+  
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/reverse-sweep.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/reverse-sweep.png?raw=true" alt="Computational graph" style="width: 80%;">
   <br/>
   <i>Figure 4: Reverse sweep.</i>
+  <br/>
   <br/>
 </div>
 
