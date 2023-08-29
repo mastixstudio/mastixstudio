@@ -5,12 +5,13 @@
 
 ## Table of Contents
 
-- [Introducing MASTIX Studio](#introduction)
+- [Introducing MASTIX Studio](#introducing-mastix-studio)
 - [Adjoint Algorithmic Differentiation](#adjoint-algorithmic-differentiation)
 - [Notebooks](#notebooks)
+- [Whitepapers](#whitepapers)
 - [Contact](#contact)
 
-## Introduction
+## Introducing MASTIX Studio
 
 MASTIX Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset and liability management (ALM).
 
@@ -39,13 +40,19 @@ Consistency  | Values and risks calculated with the exact same set of cash flows
 High performance  | Full recalculation of all metrics in minutes, what-if calculations on bank-wide metrics | Bank-wide metrics such as LCR calculated overnight, only additions calculated intraday 
 Holistic risk management & ALM  | All valuations and risk metrics calculated consistently across risk, reporting and accounting | All risk metrics calculated
 
-## Notebooks
-
-The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
 
 ## Adjoint Algorithmic Differentiation
 
 Adjoint Algorithmic Differentiation (AAD), also known as automatic differentiation, is a powerful method for efficiently computing derivatives, especially suited for high-dimensional problems. For more detailed information see [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
+
+## Notebooks
+
+The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
+
+## Whitepapers
+[Regulatory Compliance: Mastering BCBS 239, IRRBB, BRRD, FRTB, and Beyond](https://github.com/mastixstudio/mastixstudio/blob/main/RegulatoryCompliance.md).
+
+[Efficient P&L Explain and Value-at-Risk Attribution ](https://github.com/mastixstudio/mastixstudio/blob/main/EfficientPnLExplain.md).
 
 ## Contact
 
