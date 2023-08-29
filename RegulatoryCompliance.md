@@ -27,8 +27,16 @@ Therefore, it serves as a powerful addition to any financial institution aiming 
 When comparing the core calculation requirements of the most important regulations, a few common themes emerge. 
 The largely overlapping calculation requirements emphasize the need for a holistic solution for regulatory computations.
 
+<p align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/regulatory-compliance.png?raw=true" alt="MASTIX Studio Logo" style="width: 80%;">
+</p>
+
 ## Exceeding the Requirements with MASTIX Studio
 MASTIX Studio is designed from the bottom up to excel in the areas required by the recent regulations.
+
+<p align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/exceeding-requirements.png?raw=true" alt="MASTIX Studio Logo" style="width: 80%;">
+</p>
 
 ## Future-proofing regulatory compliance
 With the adaptable and powerful engine of MASTIX Studio, financial institutions can confidently face the requirements of the most demanding current and future regulations. 
