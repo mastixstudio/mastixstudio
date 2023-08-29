@@ -7,26 +7,27 @@ However, while the advantages are transformative, implementing AAD for large-sca
 ## Table of Contents
 - [Motivation](#motivation)
 - [Key Concepts](#key-concepts)
-  - Computational graph
+  - Decomposing the function
   - Forward sweep
   - Reverse sweep
-- [Terminology in MASTIX Studio](#terminology-in-mastix-studio)
-  - Outer reverse & inner reverse
-- [Benefits](#benefits)
+- [Efficient AAD in MASTIX Studio](#efficient-aad-in-mastix-studio)
+  - High-Performance Graph Construction
+  - Efficient Handling of Independent Variables
+- [Summary of concepts](#summary-of-concepts)
 
 ## Motivation 
 
-In finance, assessing risk is deeply tied to understanding sensitivities — how financial outcomes shift in response to parameter variations. Traditional methods to determine sensitivities are computationally intensive and often intractable for large-scale financial calculations. Adjoint Algorithmic Differentiation (AAD) offers a way to calculate sensitivities with exceptional efficiency. With AAD, financial institutions can increase transparency and enhance processes—from detailed stress testing to the deployment of advanced AI techniques.
+At the heart of financial risk assessment is the need to understand sensitivities: how changes in parameters—like interest rates, market volatilities, or credit spreads—affect financial metrics. Traditional methods to determine sensitivities are computationally intensive and often intractable for large-scale financial calculations. Adjoint Algorithmic Differentiation (AAD) offers a way to calculate sensitivities with exceptional efficiency. With AAD, financial institutions can increase transparency and enhance processes—from detailed stress testing to the deployment of advanced AI techniques.
 
 
 ## Key Concepts
 
-AAD computes the sensitivities of a function by breaking its operations down into basic steps for which sensitivities are already known. These steps are then traversed via an intricate process that enables AAD to efficiently capture the sensitivity of the function's output to its input variables.
+AAD computes the sensitivities of a function by breaking its operations down into basic steps for which sensitivities are already known. These steps are then traversed in both forward and reverse direction through an intricate process that enables AAD to efficiently capture the sensitivity of the function's output to its input variables.
 
-The process can be broken down conceptually in a few steps:
+The methodology can be broken down conceptually in a few parts:
 
-- **Decomposing the calculation**
-  Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify operations or variables, and edges depict the flow or dependencies of these operations.
+- **Decomposing the function**
+  Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations.
   
 - **Forward sweep or forward pass**
   During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of operations. 
