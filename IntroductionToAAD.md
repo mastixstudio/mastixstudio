@@ -27,13 +27,42 @@ AAD computes the sensitivities of a function by breaking its operations down int
 The methodology can be broken down conceptually in a few parts:
 
 - **Decomposing the function**
-  Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations.
-  
+  Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured.
+.
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/tree-basic-operation.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <br/>
+  <i>Figure 1: Basic operation on two variables in a computational graph.</i>
+  <br/>
+  <br/>
+</div> 
+
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/tree-general.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <br/>
+  <i>Figure 2: Combining a few basic operations yields a small computational graph.</i>
+  <br/>
+  <br/>
+</div>
+
 - **Forward sweep or forward pass**
-  During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of operations. 
-  
+  During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of operations.
+  <div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/forward-sweep.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <br/>
+  <i>Figure 3: Forward sweep.</i>
+  <br/>
+  <br/>
+</div>
+
 - **Reverse sweep or reverse pass**
   In the reverse sweep, the computational graph is retraced using the tape from the forward sweep, starting from the output and working backward to the inputs. Using the chain rule and the sequence of operations recorded on the tape, sensitivities for the nodes are combined to calculate the sensitivities of the function.
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/reverse-sweep.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <br/>
+  <i>Figure 4: Reverse sweep.</i>
+  <br/>
+</div>
 
 The sensitivities derived from AAD represent how the function's output changes in response to variations in each input, but it's important to understand that these sensitivities are calculated at a specific set of input values. These sensitivities, therefore, offer a snapshot of the function's behavior at that particular input point.
 
