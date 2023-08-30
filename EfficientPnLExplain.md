@@ -43,7 +43,7 @@ P&L explain can be structured into three main components:
    - Attribution of remaining P&L to changes in benchmark instruments
   
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/portfolio-composition-time-effects.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/portfolio-composition-time-effects.png?raw=true" alt="Basic operation" style="width: 45%;">
   <br/>
   <i>Figure 1: Portfolio composition and time effects.</i>
   <br/>
@@ -51,9 +51,39 @@ P&L explain can be structured into three main components:
 </div> 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/market-data.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/market-data.png?raw=true" alt="Basic operation" style="width: 45%;">
   <br/>
   <i>Figure 2: Updated market data and delta interpolation.</i>
   <br/>
   <br/>
 </div> 
+
+### Increasing accuracy with delta interpolation
+
+Given that all sensitivities are readily available, the accuracy of P&L explain calculations can be enhanced by utilizing the sensitivities at both time points. The change portfolio value can be approximated using a second-degree polynomial in each risk factor, which is fitted using the sensitivities, leading to a second-order P&L explain.
+
+### Value-at-Risk attribution
+
+The methodology employed for Value-at-Risk (VaR) attribution parallels that used for P&L explain. However, for VaR attribution, the changes in portfolio value are driven by market data from VaR scenarios.
+
+VaR attribution provides an understanding of how risk factors influence the portfolio under extreme market conditions. This can be used to identify vulnerabilities and evaluate strategies to enhance portfolio resilience.
+
+
+### P&L explain in practice
+
+With MASTIX Studio, all sensitivities are obtained through AAD without any additional configuration. Whenever a calculation is performed with two different sets of inputs, an attribution analysis can be obtained directly.
+The attribution calculation can be called from the Excel add-in or from the API.
+
+The output is a specification of the change of each input together with its contribution to the change in the calculated value. The table below is an example for the present value of a portfolio of interest rate swaps. (Only the first 14 benchmark instruments are shown.)
+
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/pnl-explain-table.png?raw=true" alt="Basic operation" style="width: 65%;">
+  <br/>
+  <i>Figure 3: P&L explain for a swap portfolio.</i>
+  <br/>
+  <br/>
+</div> 
+
+### General attribution analysis with AAD
+
+The method of utilizing sensitivities derived through AAD allows for attributing changes in other complex calculations―such as RWA or CVA―to variations in their inputs. In the same way as for P&L explain, this approach can provide detailed insights into how these calculations are influenced by changes in the underlying risk factors.
