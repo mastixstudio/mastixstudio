@@ -47,9 +47,13 @@ Adjoint Algorithmic Differentiation (AAD), also known as automatic differentiati
 
 ## Notebooks
 
-The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems.
+The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems. Updated continuously with new applications of MASTIX Studio.
 
-## Whitepapers
+## Articles
+
+A collection of articles treating some use cases for MASTIX Studio, as well as some insights about current issues in banking and finance. Updated continuously.
+
+
 [Regulatory Compliance: Mastering BCBS 239, IRRBB, BRRD, FRTB, and Beyond](https://github.com/mastixstudio/mastixstudio/blob/main/RegulatoryCompliance.md).
 
 [Efficient P&L Explain and Value-at-Risk Attribution ](https://github.com/mastixstudio/mastixstudio/blob/main/EfficientPnLExplain.md).
