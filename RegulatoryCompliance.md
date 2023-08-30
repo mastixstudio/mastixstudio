@@ -18,11 +18,12 @@ MASTIX Studio is designed for compatibility and easy integration, and can intera
 This ensures that its computations contribute effectively to the bank's overall risk management architecture. 
 Therefore, it serves as a powerful addition to any financial institution aiming to keep pace with the evolving regulatory landscape.
 
-[^1]: **BCBS 239**: Basel Committe on Banking Supervision: Principles for Effective Risk Data Aggregation and Risk Reporting
-  **IRRBB**: Interest Rate Risk in the Banking Book
-  **BRRD**: The Bank Recovery and Resolution Directive
-  **FRTB**: Fundamental Review of the Trading Book
+[^1]: **BCBS 239**: Basel Committe on Banking Supervision: Principles for Effective Risk Data Aggregation and Risk Reporting.  
+  **IRRBB**: Interest Rate Risk in the Banking Book.  
+  **BRRD**: The Bank Recovery and Resolution Directive.  
+  **FRTB**: Fundamental Review of the Trading Book. 
 
+    
 ## Regulatory calculation requirements
 When comparing the core calculation requirements of the most important regulations, a few common themes emerge. 
 The largely overlapping calculation requirements emphasize the need for a holistic solution for regulatory computations.
