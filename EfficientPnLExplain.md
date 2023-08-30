@@ -13,9 +13,9 @@ and the portfolio's sensitivities to these instruments. This results in a thorou
 
 Using the sensitivities, changes in portfolio value can be approximated through a first-order expansion:
 
-$$\Delta PV = PV_{t2}-PV_{t2} \approx \sum_i \frac{dPV_{t1}}{dR_i} \Delta R_i$$
+$$\Delta PV = PV_{t_2}-PV_{t_1} \approx \sum_i \frac{dPV_{t_1}}{dR_i} \Delta R_i$$
 
-where $\frac{dPV_{t1}}{dR_i}$ denotes the sensitivity of the portfolio value to a benchmark instrument, and $\Delta R_i$ denotes the change in the 
+where $\frac{dPV_{t_1}}{dR_i}$ denotes the sensitivity of the portfolio value to a benchmark instrument, and $\Delta R_i$ denotes the change in the 
 benchmark instrument.
 
 ### Leveraging AAD for accurate P&L explain
@@ -26,3 +26,18 @@ In this context, Adjoint Algorithmic Differentiation (AAD) becomes particularly 
 AAD—a fundamental technique in the domain of machine learning and AI—provides an efficient and precise method 
 for computing derivatives. This enables accurate determination of all risk factor sensitivities 
 essential for precise P&L explain.
+
+### Components of P&L explain
+
+P&L explain can be structured into three main components:
+
+1. Portfolio composition
+   - Closed and matured trades
+   - New trades
+2. Time effects
+   - Cash flows paid
+   - Fixings set
+   - Discounting effect on remaining cash flows
+4. Market data
+   - Harmonization of instruments― benchmark instruments can have different structures at two points in time due to calendar effects
+   - Attribution of remaining P&L to changes in benchmark instruments  
