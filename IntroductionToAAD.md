@@ -77,7 +77,7 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
 
 - **High-Performance Graph Construction**: Beginning with the computational graph, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph, which we term the "high-performance graph." Given that the high-performance graph has selectively "hidden" certain nodes during optimization, and that the nodes that remain on this graph are traversed during the reverse pass, these nodes are named "outer reverses."
 
-A sub-graph with a single input and output is a prime example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-grapch directly during the forward sweep.
+A sub-graph with a single input and output is a prime example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
 
 
 - **Efficient Handling of Independent Variables**: To boost efficiency, independent variables are excluded from the tape. Nodes performing rudimentary operations on these independent variables, termed as "interior nodes," are also kept outside both the tape and the high-performance graph. 
