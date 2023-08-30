@@ -77,7 +77,7 @@ The attribution calculation can be called from the Excel add-in or from the API.
 The output is a specification of the change of each input together with its contribution to the change in the calculated value. The table below is an example for the present value of a portfolio of interest rate swaps. (Only the first 14 benchmark instruments are shown.)
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/pnl-explain-table.png?raw=true" alt="Basic operation" style="width: 65%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/pnl-explain-table.png?raw=true" alt="Basic operation" style="width: 70%;">
   <br/>
   <i>Figure 3: P&L explain for a swap portfolio.</i>
   <br/>
