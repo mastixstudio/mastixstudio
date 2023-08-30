@@ -38,6 +38,22 @@ P&L explain can be structured into three main components:
    - Cash flows paid
    - Fixings set
    - Discounting effect on remaining cash flows
-4. Market data
+3. Market data
    - Harmonization of instruments― benchmark instruments can have different structures at two points in time due to calendar effects
-   - Attribution of remaining P&L to changes in benchmark instruments  
+   - Attribution of remaining P&L to changes in benchmark instruments
+  
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/portfolio-composition-time-effects.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <br/>
+  <i>Figure 1: Portfolio composition and time effects.</i>
+  <br/>
+  <br/>
+</div> 
+
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/market-data.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <br/>
+  <i>Figure 2: Updated market data and delta interpolation.</i>
+  <br/>
+  <br/>
+</div> 
