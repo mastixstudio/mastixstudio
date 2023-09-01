@@ -32,7 +32,7 @@ The methodology can be broken down conceptually in a few parts:
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation.png?raw=true" alt="Basic operation" style="width: 30%;">
   <br/>
-  <i>Figure 1: Basic operation on two variables in a computational graph.</i>
+  <i>Figure 1: Basic operation.</i>
   <br/>
   <br/>
 </div> 
@@ -40,7 +40,7 @@ The methodology can be broken down conceptually in a few parts:
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation-constants.png?raw=true" alt="Basic operation" style="width: 30%;">
   <br/>
-  <i>Figure 2: Basic operation on two constants in a computational graph.</i>
+  <i>Figure 2: Basic operation on two constants.</i>
   <br/>
   <br/>
 </div> 
@@ -49,7 +49,7 @@ The methodology can be broken down conceptually in a few parts:
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph.png?raw=true" alt="Computational graph" style="width: 35%;">
   <br/>
-  <i>Figure 3: Combining a few basic operations yields a small computational graph.</i>
+  <i>Figure 3: Combining basic operations yields a computational graph.</i>
   <br/>
   <br/>
 </div>
