@@ -30,7 +30,7 @@ The methodology can be broken down conceptually in a few parts:
   Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured.
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/tree-basic-operation.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation.png?raw=true" alt="Basic operation" style="width: 30%;">
   <br/>
   <i>Figure 1: Basic operation on two variables in a computational graph.</i>
   <br/>
@@ -38,9 +38,18 @@ The methodology can be broken down conceptually in a few parts:
 </div> 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/tree-general.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation-constants.png?raw=true" alt="Basic operation" style="width: 30%;">
   <br/>
-  <i>Figure 2: Combining a few basic operations yields a small computational graph.</i>
+  <i>Figure 2: Basic operation on two constants in a computational graph.</i>
+  <br/>
+  <br/>
+</div> 
+
+
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <br/>
+  <i>Figure 3: Combining a few basic operations yields a small computational graph.</i>
   <br/>
   <br/>
 </div>
@@ -51,7 +60,7 @@ The methodology can be broken down conceptually in a few parts:
   <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/forward-sweep.png?raw=true" alt="Computational graph" style="width: 70%;">
   <br/>
-  <i>Figure 3: Forward sweep.</i>
+  <i>Figure 4: Forward sweep.</i>
   <br/>
   <br/>
 </div>
@@ -62,7 +71,7 @@ The methodology can be broken down conceptually in a few parts:
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/reverse-sweep.png?raw=true" alt="Computational graph" style="width: 80%;">
   <br/>
-  <i>Figure 4: Reverse sweep.</i>
+  <i>Figure 5: Reverse sweep.</i>
   <br/>
   <br/>
 </div>
@@ -79,6 +88,21 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
 
 A sub-graph with a single input and output is a prime example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
 
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-colored.png?raw=true" alt="Computational graph" style="width: 80%;">
+  <br/>
+  <i>Figure 6: Sub-graph that can be optimized separately.</i>
+  <br/>
+  <br/>
+</div>
+
+<div align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-collapsed.png?raw=true" alt="Computational graph" style="width: 80%;">
+  <br/>
+  <i>Figure 7: Sub-graph collapsed into single node on the outer graph.</i>
+  <br/>
+  <br/>
+</div>
 
 - **Efficient Handling of Independent Variables**: To boost efficiency, independent variables are excluded from the tape. Nodes performing rudimentary operations on these independent variables, termed as "interior nodes," are also kept outside both the tape and the high-performance graph. 
 
