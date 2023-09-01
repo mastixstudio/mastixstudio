@@ -30,7 +30,7 @@ The methodology can be broken down conceptually in a few parts:
   Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured.
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation.png?raw=true" alt="Basic operation" style="width: 50%;">
   <br/>
   <i>Figure 1: Basic operation.</i>
   <br/>
@@ -38,7 +38,7 @@ The methodology can be broken down conceptually in a few parts:
 </div> 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation-constants.png?raw=true" alt="Basic operation" style="width: 30%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation-constants.png?raw=true" alt="Basic operation" style="width: 50%;">
   <br/>
   <i>Figure 2: Basic operation on two constants.</i>
   <br/>
@@ -47,7 +47,7 @@ The methodology can be broken down conceptually in a few parts:
 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph.png?raw=true" alt="Computational graph" style="width: 35%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph.png?raw=true" alt="Computational graph" style="width: 40%;">
   <br/>
   <i>Figure 3: Combining basic operations yields a computational graph.</i>
   <br/>
@@ -85,19 +85,18 @@ The sensitivities derived from AAD represent how the function's output changes i
 While the foundational principles of Adjoint Algorithmic Differentiation (AAD) are powerful, a straightforward implementation might not deliver the optimal performance required for high-frequency, large-scale computations. MASTIX Studio pioneers a cutting-edge approach to enhance efficiency and offer more versatile analytics.
 
 - **High-Performance Graph Construction**: Beginning with the computational graph, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph, which we term the "high-performance graph." Given that the high-performance graph has selectively "hidden" certain nodes during optimization, and that the nodes that remain on this graph are traversed during the reverse pass, these nodes are named "outer reverses."
-
-A sub-graph with a single input and output is a prime example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
+  A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-colored.png?raw=true" alt="Computational graph" style="width: 80%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-colored.png?raw=true" alt="Computational graph" style="width: 40%;">
   <br/>
-  <i>Figure 6: Sub-graph that can be optimized separately.</i>
+  <i>Figure 6:  A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.</i>
   <br/>
   <br/>
 </div>
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-collapsed.png?raw=true" alt="Computational graph" style="width: 80%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-collapsed.png?raw=true" alt="Computational graph" style="width: 40%;">
   <br/>
   <i>Figure 7: Sub-graph collapsed into single node on the outer graph.</i>
   <br/>
