@@ -30,7 +30,7 @@ The methodology can be broken down conceptually in a few parts:
   Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured.
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation.png?raw=true" alt="Basic operation" style="width: 50%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation.png?raw=true" alt="Basic operation" style="width: 40%;">
   <br/>
   <i>Figure 1: Basic operation.</i>
   <br/>
@@ -38,7 +38,7 @@ The methodology can be broken down conceptually in a few parts:
 </div> 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation-constants.png?raw=true" alt="Basic operation" style="width: 50%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/basic-operation-constants.png?raw=true" alt="Basic operation" style="width: 40%;">
   <br/>
   <i>Figure 2: Basic operation on two constants.</i>
   <br/>
@@ -58,7 +58,7 @@ The methodology can be broken down conceptually in a few parts:
   During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of operations.
   
   <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/forward-sweep.png?raw=true" alt="Computational graph" style="width: 70%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/forward-sweep.png?raw=true" alt="Computational graph" style="width: 50%;">
   <br/>
   <i>Figure 4: Forward sweep.</i>
   <br/>
@@ -69,7 +69,7 @@ The methodology can be broken down conceptually in a few parts:
   In the reverse sweep, the computational graph is retraced using the tape from the forward sweep, starting from the output and working backward to the inputs. Using the chain rule and the sequence of operations recorded on the tape, sensitivities for the nodes are combined to calculate the sensitivities of the function.
   
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/reverse-sweep.png?raw=true" alt="Computational graph" style="width: 80%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/reverse-sweep.png?raw=true" alt="Computational graph" style="width: 45%;">
   <br/>
   <i>Figure 5: Reverse sweep.</i>
   <br/>
@@ -109,15 +109,15 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
 
 | Term | Meaning |
 |---|---|
-| **Computational Graph** |The steps of a calculation represented as nodes in a graph. Within this graph:
+| **Computation Graph** |The steps of a calculation represented as nodes in a graph. Within this graph:
 | **Node** | Represents an operation (e.g., addition, multiplication).|
 | **Edge** | Represents an intermediate variable or result.|
-|**Tape/Trace/Wengert list**| A data structure that records operations performed during the forward computation, allowing the reverse sweep to retrace the computation.|
+|**Tape/Trace/Wengert list**| A data structure that records operations performed during the forward sweep, allowing the reverse sweep to retrace the computation.|
 | **Forward Sweep or forward pass** | The initial sweep where the function is evaluated and the operations are recorded on the tape.|
 | **Reverse Sweep or reverse pass** | After computing the function's value in a forward sweep, AAD performs a reverse sweep using the tape from the forward sweep. The reverse sweep backpropagates sensitivities from the output to the inputs, using the chain rule in reverse at each node. |
 | **Outer reverse** | A node in the optimized "outer" graph that will be traversed in the reverse sweep.|
 | **Interior node** | A node in the "outer" graph not recorded on the tape.|
-| **Constant** | A value of and independent variable used as input to the calculation, which is constant for a particular evaluation of the function.|
+| **Constant** | A value of and independent variable used as input to the calculation.|
   
 
 
