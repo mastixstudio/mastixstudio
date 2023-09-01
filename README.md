@@ -60,4 +60,4 @@ A collection of articles treating some use cases for MASTIX Studio, as well as s
 
 ## Contact
 
-Check out [www.mastix.se](https://www.mastix.se/) or reach out to [info@mastix.se](mailto:info@mastix.se) for more info. 
+Connect with us on [LinkedIn](https://www.linkedin.com/company/mastix) or reach out to [info@mastix.se](mailto:info@mastix.se) for more info. 
