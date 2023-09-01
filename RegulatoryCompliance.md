@@ -33,7 +33,7 @@ The largely overlapping calculation requirements emphasize the need for a holist
 </p>
 
 ## Beyond compliance: surpassing regulatory requirements with MASTIX Studio.
-MASTIX Studio has an architecture that ensures that it surpasses the requirements of known regulations. Its analytics help organizations stay ahead of the curve instead of just compliant. With MASTIX Studio, regulatory compliance becomes a seamless aspect of business growth.
+MASTIX Studio has an architecture that ensures that it surpasses the requirements of known regulations. Its analytics help organizations stay ahead of the curve instead of just compliant. 
 
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/exceeding-requirements.png?raw=true" alt="MASTIX Studio Logo" style="width: 80%;">
@@ -41,4 +41,4 @@ MASTIX Studio has an architecture that ensures that it surpasses the requirement
 
 ## Future-proofing regulatory compliance
 With the adaptable and powerful engine of MASTIX Studio, financial institutions can confidently face the requirements of the most demanding current and future regulations. 
-Its state-of-the-art capabilities and flexible approach make it a strategic tool for regulatory compliance.
+Its state-of-the-art capabilities and flexible approach make it a strategic tool for regulatory compliance. With MASTIX Studio, regulatory compliance becomes a seamless aspect of business growth.
