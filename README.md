@@ -20,7 +20,7 @@ Detailed calculations on cash flows ensure that all aspects of credit risk, mark
 MASTIX Studio offers:
 
 - **Consistency**: Reliable and uniform calculations for credit, market, and liquidity risk, and consistency across risk, reporting, and accounting.
-- **High performance**: Fast and detailed risk calculations for a broad range of financial instruments.
+- **High Performance**: Fast and detailed risk calculations for a broad range of financial instruments.
 - **Future-Proof Architecture**: Designed to exceed today's requirements and with an architecture prepared for AI implementations.
 
 Moreover, its modular and open design ensures seamless integration with both current and future systems, positioning your institution to stay ahead of emerging demands.
