@@ -13,7 +13,7 @@ However, while the advantages are transformative, implementing AAD for large-sca
 - [Efficient AAD in MASTIX Studio](#efficient-aad-in-mastix-studio)
   - High-Performance Graph Construction
   - Efficient Handling of Independent Variables
-- [Summary of concepts](#summary-of-concepts)
+- [Summary of Concepts](#summary-of-concepts)
 
 ## Motivation 
 
@@ -105,7 +105,7 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
 
 - **Efficient Handling of Independent Variables**: To boost efficiency, independent variables are excluded from the tape. Nodes performing rudimentary operations on these independent variables, termed as "interior nodes," are also kept outside both the tape and the high-performance graph. 
 
-## Summary of concepts
+## Summary of Concepts
 
 | Term | Meaning |
 |---|---|
