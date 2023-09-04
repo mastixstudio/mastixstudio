@@ -79,9 +79,11 @@ The methodology can be broken down conceptually in a few parts:
 The sensitivities derived from AAD represent how the function's output changes in response to variations in each input, but it's important to understand that the sensitivities are calculated at a specific set of input values. The sensitivities, therefore, offer a snapshot of the function's behavior at a particular input point.
 
 
-## Efficient AAD in MASTIX Studio
+## Flexible and Efficient AAD in MASTIX Studio
 
 While the foundational principles of Adjoint Algorithmic Differentiation (AAD) are powerful, a straightforward implementation might not deliver the performance required for high-frequency, large-scale computations. MASTIX Studio pioneers a cutting-edge approach to enhance efficiency and offer more versatile analytics.
+
+- **Flexible Handling of Rudimentary Operations:** Nodes performing rudimentary operations independent variables, e.g. change of sign of the notional for a leg in an interest rate swap, are kept out of the tape and the high-performance graph. This provides more flexibility in the handling of these nodes. They are referred to as *interior nodes*, since they are interior nodes in the graph.
 
 - **High-Performance Graph Construction:** Beginning with the computational graph, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph, which we term the "high-performance graph." Given that the high-performance graph has selectively "hidden" certain nodes during optimization, and that the nodes that remain on the graph are traversed during the reverse pass, these nodes are named "outer reverses."
   A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
@@ -102,7 +104,6 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
   <br/>
 </div>
 
-- **Efficient Handling of Independent Variables:** To boost efficiency, independent variables are excluded from the tape. Nodes performing rudimentary operations on these independent variables, termed as "interior nodes," are also kept outside both the tape and the high-performance graph. 
 
 ## Summary of Concepts
 
