@@ -22,7 +22,7 @@ At the heart of financial risk assessment is the need to understand sensitivitie
 
 ## Key Concepts
 
-AAD computes the sensitivities of a function by breaking its operations down into basic steps for which sensitivities are already known. These steps are then traversed in both forward and reverse direction through an intricate process that enables AAD to efficiently capture the sensitivity of the function's output to its input variables.
+AAD computes the sensitivities of a function by breaking down its operations into basic steps for which sensitivities are already known. These steps are then traversed in both forward and reverse direction through an intricate process that enables AAD to efficiently capture the sensitivity of the function's output to its input variables.
 
 The methodology can be broken down conceptually in a few parts:
 
