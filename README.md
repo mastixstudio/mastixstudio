@@ -6,9 +6,8 @@
 ## Table of Contents
 
 - [Introducing MASTIX Studio](#introducing-mastix-studio)
-- [Adjoint Algorithmic Differentiation](#adjoint-algorithmic-differentiation)
 - [Notebooks](#notebooks)
-- [Whitepapers](#whitepapers)
+- [Articles](#articles)
 - [Contact](#contact)
 
 ## Introducing MASTIX Studio
@@ -30,7 +29,7 @@ Moreover, its modular and open design ensures seamless integration with both cur
 </p>
 
 
-### Features
+#### Features
 
 
 
@@ -41,9 +40,9 @@ High performance  | Full recalculation of all metrics in minutes, what-if calcul
 Holistic risk management & ALM  | All valuations and risk metrics calculated consistently across risk, reporting and accounting | All risk metrics calculated
 
 
-### Adjoint Algorithmic Differentiation
+#### Adjoint Algorithmic Differentiation
 
-MASTIX Studio is powered by a cutting-egde framework for Adjoint Algorithmic Differentiation (AAD). AAD is a revolutionary method for efficiently computing sensitivities, especially suited for high-dimensional problems such as those arising in banking and finance. For more detailed information see [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
+MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Differentiation (AAD). AAD is an innovative method for efficiently computing sensitivities, especially suited for high-dimensional problems such as those arising in banking and finance. For more detailed information, see our [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
 
 ## Notebooks
 
