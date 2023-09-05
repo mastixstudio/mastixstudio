@@ -14,7 +14,7 @@
 
 MASTIX Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset and liability management (ALM).
 
-Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance makes the calculations tractable and accessible throughout the organization.
+Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance ensures the calculations are manageable and accessible across the organization.
 
 MASTIX Studio offers:
 
@@ -55,7 +55,7 @@ A collection of articles treating some use cases for MASTIX Studio, as well as s
 
 [Regulatory Compliance: Mastering BCBS 239, IRRBB, BRRD, FRTB, and Beyond](https://github.com/mastixstudio/mastixstudio/blob/main/RegulatoryCompliance.md).
 
-[Efficient P&L Explain and Value-at-Risk Attribution ](https://github.com/mastixstudio/mastixstudio/blob/main/EfficientPnLExplain.md).
+[Efficient P&L Explain and Value-at-Risk Attribution](https://github.com/mastixstudio/mastixstudio/blob/main/EfficientPnLExplain.md).
 
 ## Contact
 
