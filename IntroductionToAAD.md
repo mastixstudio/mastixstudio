@@ -92,13 +92,13 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
   <br/>
 </div>
 
-- **High-Performance Graph Construction:** The remaining interior nodes on the graph constitute the basis for the *high-performance graph*, which is highly optimized and where all operations are recorded on the tape. To optimize performance, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph—the high-performance graph. Given that the high-performance graph has selectively "hidden" certain nodes during the optimization, and that the nodes that remain on the graph are traversed during the reverse pass, these nodes are referred to as *outer reverses*.
-  A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
+- **High-Performance Graph Construction:** The remaining interior nodes on the graph constitute the basis for the *high-performance graph*, which is highly optimized and where all operations are recorded on the tape. To optimize performance, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph—the high-performance graph. Given that the high-performance graph has selectively "hidden" certain nodes during the optimization, and that the nodes that remain on the graph are traversed during the reverse pass, these nodes are referred to as *outer reverses*.     <br/><br/>
+A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
   <div align="center">
     <br/>
     <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-colored-v2.png?  raw=true" alt="Computational graph" style="width: 40%;">
     <br/>
-    <i>Figure 7:  A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.</i>
+    <i>Figure 7:  A sub-graph with a single input and output can be optimized using forward mode AD.</i>
     <br/>
     <br/>
   </div>
@@ -106,7 +106,7 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
   <br/>
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/computation-graph-subgraph-collapsed-v2.png?raw=true" alt="Computational graph" style="width: 40%;">
   <br/>
-    <i>Figure 8: Sub-graph collapsed into single node on the outer graph. This node is treated as an outer reverse on the high-performance graph.</i>
+    <i>Figure 8: The sub-graph is collapsed into single node and is treated as an outer reverse on the high-performance graph.</i>
   <br/>
   <br/>
 </div>
