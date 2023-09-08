@@ -25,7 +25,7 @@ MASTIX Studio offers:
 Moreover, its modular and open design ensures seamless integration with both current and future systems, positioning your institution to stay ahead of emerging demands.
 
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/MASTIX Studio Overview.png?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-overview.png?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
 </p>
 
 
@@ -46,7 +46,13 @@ MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Dif
 
 ## Notebooks
 
-The [notebooks](https://github.com/mastixstudio/notebooks) showcase functionality in MASTIX Studio and is divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems. Updated continuously with new applications of MASTIX Studio.
+MASTIX Studio can be used from a variety of tools. The notebook repository contains examples utilizing the Python API to showcase functionality in MASTIX Studio.
+
+<p align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python.png?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
+</p>
+
+The [notebooks](https://github.com/mastixstudio/notebooks) are divided into two types: tutorials and use cases. Tutorials cover building blocks of the library and use cases apply these building blocks to real problems. Updated continuously with new applications of MASTIX Studio.
 
 ## Articles
 
