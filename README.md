@@ -46,7 +46,7 @@ MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Dif
 
 ## Notebooks
 
-MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. The [notebook repository](https://github.com/mastixstudio/notebooks) contains examples using Python to showcase functionality in MASTIX Studio.
+MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. This page contains a [Jupyter notebook repository](https://github.com/mastixstudio/notebooks) with Python examples that showcase functionality in MASTIX Studio.
 
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python.png?raw=true" alt="MASTIX Studio Access" style="width: 50%;">
