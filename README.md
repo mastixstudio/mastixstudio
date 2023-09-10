@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 40%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 55%;">
 </p>
 
 - [Introducing MASTIX Studio](#introducing-mastix-studio)
