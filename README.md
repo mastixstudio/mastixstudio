@@ -2,8 +2,6 @@
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 40%;">
 </p>
 
-## Table of Contents
-
 - [Introducing MASTIX Studio](#introducing-mastix-studio)
 - [Notebooks](#notebooks)
 - [Articles](#articles)
