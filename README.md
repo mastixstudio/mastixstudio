@@ -36,7 +36,7 @@ Moreover, its modular and open design ensures seamless integration with both cur
 From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX Studio delivers on every level:
 
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-pyramid.svg?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-pyramid.png?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
 </p>
 
 
@@ -66,6 +66,16 @@ The nuances in risk management and ALM tools can significantly impact performanc
 | Performance   | ✅ Bank-wide metrics calculated in minutes          | ❌ Many require overnight processes                    |
 | Modular Design         | ✅ Highly modular for flexible integrations    | ❌ Modules can be chosen, but limited external integrations |
 | Future-Proofing                    | ✅ Ready for AI             | ❌ Cloud-ready                    |
+
+
+| Key Differentiator         | MASTIX Studio                            | Typical Competitor |
+|:--------------------------:|:----------------------------------------:|:------------------:|
+| **Consistency**            | Singular cash flow & valuation framework | Time-consistent separate calculations |
+| **High Performance**       | Metrics recalculated in minutes          | Overnight metrics & intraday increments |
+| **Holistic Management**    | Unified across risk, reporting, & accounting | Segmented calculations |
+| **Transparency**           | Detailed metric traceability             | Basic calculation insights |
+| **Modular Design**         | Adaptable integration components         | Modular but less integration flexibility |
+| **Future-Proof**           | AI-ready & adaptable to evolving demands | Meets today's standards |
 -->
 
 | Key Differentiator             | What MASTIX Studio Delivers  | Typical Competitor Offerings |
