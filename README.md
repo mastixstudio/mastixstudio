@@ -5,13 +5,24 @@
 <br />
 
 
+### :globe_with_meridians: **Holistic Analysis**: 
+&emsp; Dive deep into the entire balance sheet: no silos, no inconsistencies.  
+&emsp; Every calculation anchored in a singular cash flow and valuation framework.  
+
+### :mag:  **True Transparency**: 
+&emsp; Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
+
+### :rocket: **Speed that Transforms**: 
+&emsp; Not just high performance – unparalleled. Bank-wide metrics recalculated in seconds or minutes, not hours. Say goodbye to overnight waits.  
+
+
 :globe_with_meridians: **Holistic Analysis**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a singular cash flow and valuation framework.  
 
 :mag:  **True Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
 
 :rocket: **Speed that Transforms**: Not just high performance – unparalleled. Bank-wide metrics recalculated in seconds or minutes, not hours. Say goodbye to overnight waits.  
 
-Elevate your analytics, risk management, and ALM with MASTIX Studio.
+Elevate your analytics, risk management, and ALM with MASTIX Studio:
 
 - [Introducing MASTIX Studio](#introducing-mastix-studio)
 - [Notebooks](#notebooks)
@@ -31,6 +42,8 @@ MASTIX Studio offers:
 - **Future-Proof Architecture**: Designed to exceed today's requirements and with an architecture prepared for AI implementations.
 
 Moreover, its modular and open design ensures seamless integration with both current and future systems, positioning your institution to stay ahead of emerging demands.
+### Contract Modeling to Comprehensive Risk
+From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX Studio delivers on every level:
 
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-pyramid.png?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
@@ -50,7 +63,7 @@ The nuances in risk management and ALM tools can significantly impact performanc
 | Future-Proof Architecture    | Architected for tomorrow with AI-ready capabilities and built to handle evolving regulatory demands.     | Capable for today's standards, but not primed for the future. |         
 
 
-#### Adjoint Algorithmic Differentiation
+### Adjoint Algorithmic Differentiation
 
 MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Differentiation (AAD). AAD is an innovative method for efficiently computing sensitivities, especially suited for high-dimensional problems such as those arising in banking and finance. For more detailed information, see our [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
 
