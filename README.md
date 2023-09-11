@@ -4,23 +4,13 @@
 
 <br />
 
-
-### :globe_with_meridians: **Holistic Analysis**: 
-&emsp; Dive deep into the entire balance sheet: no silos, no inconsistencies.  
-&emsp; Every calculation anchored in a singular cash flow and valuation framework.  
-
-### :mag:  **True Transparency**: 
-&emsp; Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
-
-### :rocket: **Speed that Transforms**: 
-&emsp; Not just high performance – unparalleled. Bank-wide metrics recalculated in seconds or minutes, not hours. Say goodbye to overnight waits.  
-
-
 :globe_with_meridians: **Holistic Analysis**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a singular cash flow and valuation framework.  
 
 :mag:  **True Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
 
 :rocket: **Speed that Transforms**: Not just high performance – unparalleled. Bank-wide metrics recalculated in seconds or minutes, not hours. Say goodbye to overnight waits.  
+
+<br />
 
 Elevate your analytics, risk management, and ALM with MASTIX Studio:
 
