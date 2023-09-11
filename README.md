@@ -4,7 +4,7 @@
 
 <br />
 
-:globe_with_meridians: **Holistic Analysis**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a singular cash flow and valuation framework.  
+:globe_with_meridians: **Holistic Analysis**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a singular cash flow valuation framework.  
 
 :mag:  **True Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
 
