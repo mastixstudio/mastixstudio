@@ -2,6 +2,8 @@
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 55%;">
 </p>
 
+<br />
+
 
 :globe_with_meridians: **Holistic Analysis**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a singular cash flow and valuation framework.  
 
