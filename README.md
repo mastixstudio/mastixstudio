@@ -36,7 +36,7 @@ Moreover, its modular and open design ensures seamless integration with both cur
 From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX Studio delivers on every level:
 
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-pyramid.png?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-pyramid.svg?raw=true" alt="MASTIX Studio Overview" style="width: 75%;">
 </p>
 
 
