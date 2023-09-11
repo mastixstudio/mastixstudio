@@ -2,6 +2,15 @@
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 55%;">
 </p>
 
+
+:globe_with_meridians: **Holistic Analysis**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a singular cash flow and valuation framework.  
+
+:mag:  **True Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
+
+:rocket: **Speed that Transforms**: Not just high performance – unparalleled. Bank-wide metrics recalculated in seconds or minutes, not hours. Say goodbye to overnight waits.  
+
+Elevate your analytics, risk management, and ALM with MASTIX Studio.
+
 - [Introducing MASTIX Studio](#introducing-mastix-studio)
 - [Notebooks](#notebooks)
 - [Knowledge Base](#knowledge-base)
