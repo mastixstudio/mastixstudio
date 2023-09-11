@@ -4,7 +4,7 @@
 
 - [Introducing MASTIX Studio](#introducing-mastix-studio)
 - [Notebooks](#notebooks)
-- [Articles](#articles)
+- [Knowledge Base](#knowledge-base)
 - [Contact](#contact)
 
 ## Introducing MASTIX Studio
@@ -26,15 +26,17 @@ Moreover, its modular and open design ensures seamless integration with both cur
 </p>
 
 
-#### Features
+### MASTIX Studio vs. Typical Solutions
+The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
 
-
-
-Feature | MASTIX Studio | Competitors 
-| :--- | ---: | ---:
-Consistency  | Values and risks calculated with the exact same set of cash flows for all risk types | Values and risk measures calculated separately on time-consistent data 
-High performance  | Full recalculation of all metrics in minutes, what-if calculations on bank-wide metrics | Bank-wide metrics such as LCR calculated overnight, only additions calculated intraday 
-Holistic risk management & ALM  | All valuations and risk metrics calculated consistently across risk, reporting and accounting | All risk metrics calculated
+| Key Differentiator             | What MASTIX Studio Delivers  | Typical Competitor Offerings |
+|:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
+| Consistency                  | Values and risks anchored in a singular cash flow and valuation framework.              | Different valuations and risk measures calculated separately on time-consistent data.          |
+| High Performance             | Full recalculation of all metrics in minutes. What-if calculations on bank-wide metrics.             | Bank-wide metrics, such as LCR, calculated overnight. Some incremental changes calculated intraday.  |
+| Holistic Risk Management     | All valuations and risk metrics calculated consistently across risk, reporting, and accounting       | Segmented and independent calculation methodologies.   |
+| Transparency                 | Full traceability and detailed breakdown of every metric. Comprehensive attribution functionality to track changes in metrics.                                            | Limited insight into calculations.   |
+| Modular Design               | Flexible components that can be integrated or replaced as needed, ensuring resilience and adaptability.  | Modular by design, allowing choice of software components, but lacking true flexibility for integration with external systems.  |
+| Future-Proof Architecture    | Architected for tomorrow with AI-ready capabilities and built to handle evolving regulatory demands.     | Capable for today's standards, but not primed for the future. |         
 
 
 #### Adjoint Algorithmic Differentiation
@@ -43,7 +45,7 @@ MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Dif
 
 ## Notebooks
 
-MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. This page contains a [Jupyter notebook repository](https://github.com/mastixstudio/notebooks) with Python examples that showcase functionality in MASTIX Studio.
+MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. Explore our [Jupyter notebook repository](https://github.com/mastixstudio/notebooks) with Python examples that offer hands-on examples and practical use cases for MASTIX Studio.
 
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python-net.png?raw=true" alt="MASTIX Studio Access" style="width: 50%;">
@@ -51,9 +53,9 @@ MASTIX Studio can be accessed from a variety of tools, including Excel, Python, 
 
 The [notebooks](https://github.com/mastixstudio/notebooks) are divided into three types: fundamentals, applications, and use cases. Fundamentals cover basic building blocks of the library, applications are smaller examples illustrating particular features, and use cases are larger examples with real-world scale. The repository is updated continuously with new applications of MASTIX Studio.
 
-## Articles
+## Knowledge Base
 
-A collection of articles treating some use cases for MASTIX Studio, as well as some insights about current issues in banking and finance. Updated continuously.
+Explore our Knowledge Base for detailed use cases of MASTIX Studio, alongside insights on current issues in banking and finance. Updated regularly.
 
 
 [Regulatory Compliance: Mastering BCBS 239, IRRBB, BRRD, FRTB, and Beyond](https://github.com/mastixstudio/mastixstudio/blob/main/RegulatoryCompliance.md).
