@@ -32,7 +32,7 @@ MASTIX Studio offers:
 - **Future-Proof Architecture**: Designed to exceed today's requirements and with an architecture prepared for AI implementations.
 
 Moreover, its modular and open design ensures seamless integration with both current and future systems, positioning your institution to stay ahead of emerging demands.
-### Contract Modeling to Comprehensive Risk
+### From Contract Modeling to Holistic Risk
 From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX Studio delivers on every level:
 
 <p align="center">
