@@ -114,3 +114,5 @@ Explore our Knowledge Base for detailed use cases of MASTIX Studio, alongside in
 ## Contact
 
 Connect with us on [LinkedIn](https://www.linkedin.com/company/mastix) or reach out to [info@mastix.se](mailto:info@mastix.se) for more info. 
+
+&copy; MASTIX 2023
