@@ -42,41 +42,6 @@ From the granular details of contract modeling to the expansive scope of holisti
 
 ### MASTIX Studio vs. Typical Solutions
 The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
-<!-- 
-| Feature                      | MASTIX Studio      | Competitors |
-|------------------------------|--------------------|-------------|
-| Holistic Balance Sheet       | ✅ Holistic view of risk   | ❌ Segmented |
-| Consistency                  | 🔝 One source      | ⚙️ Silos and different sources   |
-| Performance                  | 🔝 Bank-wide metrics in minutes         | ❌ Overnight runs    |
-| Integration Flexibility      | 💡 Modular design for integration  | ⚙️ Modular design for selling    |
-| Future-Proofing              | ✅ Ready for AI    | ❌ Cloud-ready |
-
-| Feature                    | MASTIX Studio        | Competitors          | Comments on Difference          |
-|----------------------------|----------------------|----------------------|---------------------------------|
-| **Consistency**            | ✅ Uniform cash flows| ✅ Time-consistent   | MASTIX ensures the exact same set of cash flows are used across all risk types, eliminating potential discrepancies. |
-| **High Performance**       | ⏱️ Minutes           | 🌙 Overnight          | With MASTIX, full metric recalculations are done in minutes, enabling real-time decision making. |
-| **Holistic Management**    | 🌍 All-in-one        | 🧩 Modular           | MASTIX provides a comprehensive solution that integrates risk, reporting, and accounting, as opposed to piecemeal modular systems. |
-
-
-
-| Feature                            | MASTIX Studio                                         | Competitors                                           |
-|------------------------------------|-------------------------------------------------------|-------------------------------------------------------|
-| Holistic Balance Sheet             | ✅ Complete view across risks and                     | ❌ Often segmented by risk type             |
-| Consistency                        | ✅ Unified data source for all metrics                | ❌ Separate calculations leading to inconsistencies        |
-| Performance   | ✅ Bank-wide metrics calculated in minutes          | ❌ Many require overnight processes                    |
-| Modular Design         | ✅ Highly modular for flexible integrations    | ❌ Modules can be chosen, but limited external integrations |
-| Future-Proofing                    | ✅ Ready for AI             | ❌ Cloud-ready                    |
-
-
-| Key Differentiator         | MASTIX Studio                            | Typical Competitor |
-|:--------------------------:|:----------------------------------------:|:------------------:|
-| **Consistency**            | Singular cash flow & valuation framework | Time-consistent separate calculations |
-| **High Performance**       | Metrics recalculated in minutes          | Overnight metrics & intraday increments |
-| **Holistic Management**    | Unified across risk, reporting, & accounting | Segmented calculations |
-| **Transparency**           | Detailed metric traceability             | Basic calculation insights |
-| **Modular Design**         | Adaptable integration components         | Modular but less integration flexibility |
-| **Future-Proof**           | AI-ready & adaptable to evolving demands | Meets today's standards |
--->
 
 | Key Differentiator             | What MASTIX Studio Delivers  | Typical Competitor Offerings |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
@@ -100,7 +65,7 @@ MASTIX Studio can be accessed from a variety of tools, including Excel, Python, 
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python-net.png?raw=true" alt="MASTIX Studio Access" style="width: 50%;">
 </p>
 
-The [notebooks](https://github.com/mastixstudio/notebooks) are divided into three types: fundamentals, applications, and use cases. Fundamentals cover basic building blocks of the library, applications are smaller examples illustrating particular features, and use cases are larger examples with real-world scale. The repository is updated continuously with new applications of MASTIX Studio.
+The [notebooks](https://github.com/mastixstudio/notebooks) are divided into three types: fundamentals, applications, and use cases. Fundamentals cover basic building blocks of the library, applications are smaller examples illustrating particular features, and use cases are larger examples with real-world scale. The repository is updated regularly with new applications of MASTIX Studio.
 
 ## Knowledge Base
 
