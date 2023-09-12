@@ -87,3 +87,6 @@ The output is a specification of the change of each input together with its cont
 ### General attribution analysis with AAD
 
 The method of utilizing sensitivities derived through AAD allows for attributing changes in other complex calculations―such as RWA or CVA―to variations in their inputs. In the same way as for P&L explain, this approach can provide detailed insights into how these calculations are influenced by changes in the underlying risk factors.
+
+
+&copy; MASTIX 2023
