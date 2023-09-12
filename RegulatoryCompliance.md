@@ -40,3 +40,5 @@ MASTIX Studio has an architecture that ensures that it surpasses the requirement
 ## Future-Proofing Regulatory Compliance
 With the adaptable and powerful engine of MASTIX Studio, financial institutions can confidently face the requirements of the most demanding current and future regulations. 
 Its state-of-the-art capabilities and flexible approach make it a strategic tool for regulatory compliance. With MASTIX Studio, regulatory compliance becomes a seamless aspect of business growth.
+
+&copy; MASTIX 2023
