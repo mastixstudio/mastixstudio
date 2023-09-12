@@ -130,3 +130,4 @@ A sub-graph with a single input and output is an example that can be efficiently
 
 
 [^1]: Algorithmic Differentiation is also known as Automatic Differentiation or *autodiff*. Sometimes, it is referred to using the names of specific implementations, such as *autograd*.
+&copy; MASTIX 2023
