@@ -65,7 +65,8 @@ MASTIX Studio can be accessed from a variety of tools, including Excel, Python, 
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python-net.png?raw=true" alt="MASTIX Studio Access" style="width: 50%;">
 </p>
 
-The [notebooks](https://github.com/mastixstudio/notebooks) are divided into three types: fundamentals, applications, and use cases. Fundamentals cover basic building blocks of the library, applications are smaller examples illustrating particular features, and use cases are larger examples with real-world scale. The repository is updated regularly with new applications of MASTIX Studio.
+The [notebooks](https://github.com/mastixstudio/notebooks) are categorized into two types: *fundamentals* and *use cases*. While fundamentals delve into the basic building blocks of the library, use cases showcase specific features and also provide comprehensive real-world examples. This repository is updated regularly with fresh applications of MASTIX Studio.
+
 
 ## Knowledge Base
 
