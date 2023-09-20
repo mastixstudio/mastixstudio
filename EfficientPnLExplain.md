@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 30%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo.png?raw=true" alt="MASTIX Studio Logo" style="width: 20%;">
 </p>
 
 # Efficient P&L Explain and Value-at-Risk Attribution 
