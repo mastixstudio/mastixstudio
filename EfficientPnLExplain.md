@@ -39,7 +39,7 @@ P&L explain can be structured into three main components:
    - Fixings set
    - Discounting effect on remaining cash flows
 3. Market data
-   - Harmonization of instruments―benchmark instruments can have different structures at two points in time due to calendar effects
+   - Harmonization of instruments―the cash flow structure of the benchmark instruments can vary over time due to calendar effects
    - Attribution of remaining P&L to changes in benchmark instruments
   
 <div align="center">
