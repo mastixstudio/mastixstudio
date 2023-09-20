@@ -60,7 +60,7 @@ P&L explain can be structured into three main components:
 
 ### Increasing accuracy with delta interpolation
 
-Given that all sensitivities are readily available, the accuracy of P&L explain calculations can be enhanced by utilizing the sensitivities at both time points. The change portfolio value can be approximated using a second-degree polynomial in each risk factor, which is fitted using the sensitivities, leading to a second-order P&L explain.
+Given that all sensitivities are readily available, the accuracy of P&L explain calculations can be enhanced by utilizing the sensitivities at both time points. The change portfolio value can be approximated using a second-degree polynomial in each risk factor, which is fitted using the sensitivities, leading to a second-order attribution in each risk factor.
 
 ### Value-at-Risk attribution
 
