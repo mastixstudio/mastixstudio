@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-logo-teaser.png?raw=true" alt="MASTIX Studio Logo" style="width: 25%;">
+</p>
+
 # Efficient P&L Explain and Value-at-Risk Attribution 
 
 P&L explain, or P&L attribution, helps decipher daily changes portfolio value to reveal the impact of changes in risk factors. MASTIX Studio leverages efficient sensitivity calculations to deliver fast P&L explain with high precision.
