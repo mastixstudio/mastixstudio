@@ -1,8 +1,6 @@
 # Efficient P&L Explain and Value-at-Risk Attribution 
 
-P&L explain, or P&L attribution, helps decipher daily changes portfolio value to reveal the impact of various risk 
-factors. MASTIX Studio leverages efficient sensitivity calculations to deliver fast P&L explain 
-with high precision.
+P&L explain, or P&L attribution, helps decipher daily changes portfolio value to reveal the impact of changes in risk factors. MASTIX Studio leverages efficient sensitivity calculations to deliver fast P&L explain with high precision.
 
 ### Benchmark sensitivities
 Attribution of P&L can be divided into three parts: changes in portfolio composition, time effects, and changes in 
