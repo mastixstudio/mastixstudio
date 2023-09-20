@@ -8,7 +8,7 @@ with high precision.
 Attribution of P&L can be divided into three parts: changes in portfolio composition, time effects, and changes in 
 risk factors―typically market data.
 
-The ideal approach to analyzing the impact of changes in market data uses benchmark instruments as risk factors 
+The ideal approach to analyzing the impact of changes in market data is to use benchmark instruments as risk factors 
 and the portfolio's sensitivities to these instruments. This results in a thorough P&L explain that is directly tied to tradeable instruments.
 
 Using the sensitivities, changes in portfolio value can be approximated through a first-order expansion:
