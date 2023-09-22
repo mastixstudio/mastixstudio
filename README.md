@@ -47,7 +47,7 @@ The nuances in risk management and ALM tools can significantly impact performanc
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
 | **High Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
-| **Holistic View of Risk**     | All valuations and risk metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled without synchronization.*  |
+| **Holistic View of Risk**     | All valuations and risk metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability and detailed breakdown of every calculation. Comprehensive attribution analytics to track changes.                                            | Limited insight into calculations and no attribution functionality.  |
 | **Modular Design**               | Accessible components that can be integrated or replaced as needed, ensuring *resilience and adaptability*.  | Modular to allow choice of software components, but *lacking true flexibility* for integration with external systems.  |
 | **Future-Proof Architecture**    | Architected for tomorrow with *AI-ready capabilities* and built to handle evolving regulatory demands.     | Capable for today's standards, but *lacking the extra capacity for escalating future demands* and not designed for advanced analytics like AI. |         
@@ -59,7 +59,7 @@ MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Dif
 
 ## Notebooks
 
-MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. Explore our [Jupyter notebook repository](https://github.com/mastixstudio/notebooks) with Python examples that offer hands-on examples and practical use cases for MASTIX Studio.
+MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. Discover Python-based hands-on examples and practical use cases for MASTIX Studio in our [Jupyter notebook repository](https://github.com/mastixstudio/notebooks).
 
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python-net.png?raw=true" alt="MASTIX Studio Access" style="width: 50%;">
