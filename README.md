@@ -47,10 +47,10 @@ The nuances in risk management and ALM tools can significantly impact performanc
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
 | **High Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
-| **Holistic View of Risk**     | All valuations and risk metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
-| **Transparency**                 | Full traceability and detailed breakdown of every calculation. Comprehensive attribution analytics to track changes.                                            | Limited insight into calculations and no attribution functionality.  |
-| **Modular Design**               | Accessible components that can be integrated or replaced as needed, ensuring *resilience and adaptability*.  | Modular in design for choosing internal components, yet often *lacking true flexibility* in external system integration.  |
-| **Future-Proof Architecture**    | Architected for tomorrow with *AI-ready capabilities* and built to handle evolving regulatory demands.     | *Illusion of future-readiness with cloud setups*. Architecture not ready for substantial growth in requirements and lacks a foundational design for integration of AI and machine learning. |         
+| **Holistic View of Risk**     | Valuations and metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
+| **Transparency**                 | Full traceability with detailed calculation breakdowns. Attribution analytics to track changes.                                            | Limited insight into calculations and no attribution functionality.  |
+| **Modular Design**               | Components that facilitate integrations, ensuring *resilience and adaptability*.  | Modular in design for choosing internal components, yet often *lacking true flexibility* in external system integration.  |
+| **Future-Proof Architecture**    | Architected for tomorrow. AI-ready and prepared for sharply increased requirements.     | *Illusion of future-readiness with cloud setups*. Not ready for substantial growth in requirements and not designed for AI and machine learning. |         
 
 
 ### Adjoint Algorithmic Differentiation
