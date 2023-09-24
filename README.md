@@ -43,14 +43,14 @@ From the granular details of contract modeling to the expansive scope of holisti
 ### MASTIX Studio vs. Typical Solutions
 The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
 
-| Key Differentiator             | What MASTIX Studio Delivers  | Typical Competitor Offerings |
+| :key: Differentiators            | :rocket: What MASTIX Studio Delivers  | :turtle: Typical Competitor Offerings |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
 | **High Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
 | **Holistic View of Risk**     | All valuations and risk metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability and detailed breakdown of every calculation. Comprehensive attribution analytics to track changes.                                            | Limited insight into calculations and no attribution functionality.  |
-| **Modular Design**               | Accessible components that can be integrated or replaced as needed, ensuring *resilience and adaptability*.  | Modular to allow choice of software components, but *lacking true flexibility* for integration with external systems.  |
-| **Future-Proof Architecture**    | Architected for tomorrow with *AI-ready capabilities* and built to handle evolving regulatory demands.     | Capable for today's standards, but *lacking the extra capacity for escalating future demands* and not designed for advanced analytics like AI. |         
+| **Modular Design**               | Accessible components that can be integrated or replaced as needed, ensuring *resilience and adaptability*.  | Modular in design for choosing internal components, yet often *lacking true flexibility* in external system integration.  |
+| **Future-Proof Architecture**    | Architected for tomorrow with *AI-ready capabilities* and built to handle evolving regulatory demands.     | *Illusion of future-readiness through cloud setups*. Architecture not ready for substantial growth in requirements and lacks a foundational design for integration of AI and machine learning. |         
 
 
 ### Adjoint Algorithmic Differentiation
