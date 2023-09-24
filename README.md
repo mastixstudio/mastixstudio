@@ -43,7 +43,7 @@ From the granular details of contract modeling to the expansive scope of holisti
 ### MASTIX Studio vs. Typical Solutions
 The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
 
-| :key: Differentiators            | :rocket: What MASTIX Studio Delivers  | :turtle: Typical Competitor Offerings |
+| :key:Differentiators            | :rocket:What MASTIX Studio Delivers  | :turtle:Typical Competitor Offerings |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
 | **High Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
