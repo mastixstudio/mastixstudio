@@ -50,7 +50,7 @@ The nuances in risk management and ALM tools can significantly impact performanc
 | **Holistic View of Risk**     | All valuations and risk metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability and detailed breakdown of every calculation. Comprehensive attribution analytics to track changes.                                            | Limited insight into calculations and no attribution functionality.  |
 | **Modular Design**               | Accessible components that can be integrated or replaced as needed, ensuring *resilience and adaptability*.  | Modular in design for choosing internal components, yet often *lacking true flexibility* in external system integration.  |
-| **Future-Proof Architecture**    | Architected for tomorrow with *AI-ready capabilities* and built to handle evolving regulatory demands.     | *Illusion of future-readiness through cloud setups*. Architecture not ready for substantial growth in requirements and lacks a foundational design for integration of AI and machine learning. |         
+| **Future-Proof Architecture**    | Architected for tomorrow with *AI-ready capabilities* and built to handle evolving regulatory demands.     | *Illusion of future-readiness with cloud setups*. Architecture not ready for substantial growth in requirements and lacks a foundational design for integration of AI and machine learning. |         
 
 
 ### Adjoint Algorithmic Differentiation
