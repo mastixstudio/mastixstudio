@@ -40,16 +40,16 @@ From the granular details of contract modeling to the expansive scope of holisti
 </p>
 
 
-### MASTIX Studio vs. Typical Competitor Offerings
+### MASTIX Studio :rocket: vs. Typical Competitors :turtle: 
 The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
 
-| :key:Differentiators            | :rocket:What MASTIX Studio Delivers  | :turtle:Typical Competitor Offerings |
+| Differentiators     :key:       |  MASTIX Studio  :rocket: |  Typical Competitors :turtle: |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
 | **High Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
 | **Holistic View of Risk**     | Valuations and metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability with detailed calculation breakdowns. Attribution analytics to track changes.                                            | Limited insight into calculations and inadequate attribution analytics.  |
-| **Modular Design**               | Components that facilitate integrations, ensuring *resilience and adaptability*.  | Modular in design for choosing internal components, yet often *lacking true flexibility* in external system integration.  |
+| **Modular Design**               | Components that facilitate integrations, ensuring *resilience and adaptability*.  | Modular for selection of features of the software, yet often *lacking true flexibility* for integrations with external systems.  |
 | **Future-Proof Architecture**    | Architected for tomorrow. AI-ready and prepared for sharply increased requirements.     | *Illusion of future-readiness with cloud setups*. Not ready for substantial growth in requirements and not designed for AI and machine learning. |         
 
 
