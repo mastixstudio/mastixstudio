@@ -46,11 +46,12 @@ The nuances in risk management and ALM tools can significantly impact performanc
 | Differentiators     :key:       |  MASTIX Studio  :rocket: |  Typical Competitors :turtle: |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 | **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
-| **High Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
+| **Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
 | **Holistic View of Risk**     | Valuations and metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability with detailed calculation breakdowns. Attribution analytics to track changes.                                            | Limited insight into calculations and inadequate attribution analytics.  |
 | **Modular Design**               | Components that facilitate integrations, ensuring *resilience and adaptability*.  | Modular for selection of features of the software, yet often *lacking true flexibility* for integrations with external systems.  |
-| **Future-Proof Architecture**    | Architected for tomorrow. AI-ready and prepared for sharply increased requirements.     | *Illusion of future-readiness with cloud setups*. Not ready for substantial growth in requirements and not designed for AI and machine learning. |         
+| **Future-Proof Architecture**    | Architected for tomorrow. AI-ready and prepared for sharply increased requirements.     | *Illusion of future-readiness with cloud setups*. Not ready for substantial growth in requirements and not designed for AI and machine learning. |  
+| **Cost Efficiency** | High performance and efficient data management minimize hardware and cloud expenses.  |  Reliance on *high-end cloud setups* to compensate for performance issues, resulting in higher costs.  |
 
 
 ### Adjoint Algorithmic Differentiation
