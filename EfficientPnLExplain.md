@@ -45,7 +45,7 @@ P&L explain can be structured into three main components:
    - Attribution of remaining P&L to changes in benchmark instruments
   
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/portfolio-composition-time-effects.png?raw=true" alt="Basic operation" style="width: 45%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/portfolio-composition-time-effects.svg" alt="Basic operation" style="width: 45%;">
   <br/>
   <i>Figure 1: Portfolio composition and time effects.</i>
   <br/>
@@ -53,7 +53,7 @@ P&L explain can be structured into three main components:
 </div> 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/market-data.png?raw=true" alt="Basic operation" style="width: 45%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/market-data.svg" alt="Basic operation" style="width: 45%;">
   <br/>
   <i>Figure 2: Updated market data and delta interpolation.</i>
   <br/>
