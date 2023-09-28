@@ -87,7 +87,7 @@ While the foundational principles of Adjoint Algorithmic Differentiation (AAD) a
   <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/computation-graph-interior-nodes-v2.svg" alt="Computational graph" style="width: 40%;">
   <br/>
-  <i>Figure 6: Interior nodes that performs some rudimentary operations are handled separately. The remaining nodes in gray form the basis for the high-performance graph.</i>
+  <i>Figure 6: Interior nodes that performs some rudimentary operations are handled separately. <br/> The remaining nodes in gray form the basis for the high-performance graph.</i>
   <br/>
   <br/>
 </div>
