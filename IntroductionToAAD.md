@@ -112,10 +112,10 @@ A sub-graph with a single input and output is an example that can be efficiently
 </div>
 
 
-## Summary of Concepts
+## Glossary
 
-| Term | Meaning |
-|---|---|
+| Term | Description |
+|---|---
 | **Computation Graph** |The steps of a calculation represented as nodes in a graph. Within this graph:
 | **Node** | Represents an operation (e.g., addition, multiplication).|
 | **Edge** | Represents an intermediate variable or result.|
