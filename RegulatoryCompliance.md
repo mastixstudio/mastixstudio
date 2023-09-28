@@ -27,14 +27,14 @@ When comparing the core calculation requirements of the most important regulatio
 The largely overlapping calculation requirements emphasize the need for a holistic solution for regulatory computations.
 
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/regulatory-compliance.png?raw=true" alt="MASTIX Studio Logo" style="width: 80%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/regulatory-compliance.svg" alt="MASTIX Studio Logo" style="width: 80%;">
 </p>
 
 ## Beyond Compliance: Surpassing Regulatory Requirements with MASTIX Studio.
 MASTIX Studio has an architecture that ensures that it surpasses the requirements of known regulations. Its analytics help organizations stay ahead of the curve instead of just compliant. 
 
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/exceeding-requirements.png?raw=true" alt="MASTIX Studio Logo" style="width: 80%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/exceeding-requirements.svg" alt="MASTIX Studio Logo" style="width: 80%;">
 </p>
 
 ## Future-Proofing Regulatory Compliance
