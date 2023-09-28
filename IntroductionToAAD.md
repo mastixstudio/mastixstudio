@@ -30,7 +30,7 @@ The methodology can be broken down conceptually in a few parts:
   Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured and how basic operations combine into a computational graph.
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/basic-operation.svg" alt="Basic operation" style="width: 40%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/basic-operation.svg" alt="Basic operation" style="width: 30%;">
   <br/>
   <i>Figure 1: Basic operation.</i>
   <br/>
@@ -38,7 +38,7 @@ The methodology can be broken down conceptually in a few parts:
 </div> 
 
 <div align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/basic-operation-constants.svg" alt="Basic operation" style="width: 40%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/basic-operation-constants.svg" alt="Basic operation" style="width: 30%;">
   <br/>
   <i>Figure 2: Basic operation on two constants.</i>
   <br/>
