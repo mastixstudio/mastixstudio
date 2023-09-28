@@ -27,7 +27,8 @@ When comparing the core calculation requirements of the most important regulatio
 The largely overlapping calculation requirements emphasize the need for a holistic solution for regulatory computations.
 
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/regulatory-compliance.svg" alt="MASTIX Studio Logo" style="width: 80%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/regulatory-compliance-top.svg" alt="MASTIX Studio Logo" style="width: 80%;">
+    <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/regulatory-compliance-bottom.svg" alt="MASTIX Studio Logo" style="width: 80%;">
 </p>
 
 ## Beyond Compliance: Surpassing Regulatory Requirements with MASTIX Studio.
