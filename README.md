@@ -64,10 +64,20 @@ MASTIX Studio can be accessed from a variety of tools, including Excel, Python, 
 
 <br />
 <p align="center">
-  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-jupyter-python-net.png?raw=true" alt="MASTIX Studio Access" style="width: 50%;">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/mastix-studio-jupyter-python-net.svg" alt="MASTIX Studio Access" style="width: 50%;">
 </p>
 
 The [notebooks](https://github.com/mastixstudio/notebooks) are categorized into two types: *fundamentals* and *use cases*. While fundamentals delve into the basic building blocks of the library, use cases showcase specific features and also provide comprehensive real-world examples. This repository is updated regularly with fresh applications of MASTIX Studio.
+
+## Enhancing Existing Infrastructure
+Legacy systems are often deeply rooted in processes and essential to daily operations. Replacing them isn't a simple task. Rather than requiring institutions to overhaul their existing infrastructure all at once, MASTIX Studio offers seamless integration to form a bridge between established methods and cutting-edge innovations. With MASTIX Studio: 
+- Your analytical reach grows, complementing, not necessarily replacing, your existing tools. 
+- The potential for real-time insights is unlocked, without compromising established processes. 
+MASTIX Studio is versatile in both data consumption and result delivery. Its flexible instrument modeling ensures that any financial instrument can be represented, its flexible result delivery means that any analysis environment can consume the results.
+<br />
+<p align="center">
+  <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/mastix-studio-integration.svg" alt="MASTIX Studio Integration" style="width: 100%;">
+</p>
 
 
 ## Knowledge Base
