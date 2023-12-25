@@ -22,17 +22,17 @@ At the heart of financial risk assessment is the need to understand sensitivitie
 
 ## Key Concepts
 
-AAD computes the sensitivities of a function by breaking down its operations into basic steps for which sensitivities are already known. These steps are then traversed in both forward and reverse direction through an intricate process that enables AAD to efficiently capture the sensitivity of the function's output to its input variables.
+AAD computes the sensitivities of a function by breaking down its operations into basic calculations for which sensitivities are already known. These calculations are then traversed in both forward and reverse direction through an intricate process that enables AAD to efficiently capture the sensitivity of the function's output to its input variables.
 
 The methodology can be broken down conceptually in a few parts:
 
 - **Decomposing the Function:**
-  Central to AAD is decomposing a complex function into a series of basic operations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic operations or variables, and edges depict the flow or dependencies of these operations. Below is an illustration of how a basic operation is structured and how basic operations combine into a computational graph.
+  Central to AAD is decomposing a complex function into a series of basic calculations for which sensitivities are already known. The function is represented using a computational graph where nodes signify basic calculations or variables, and edges depict the flow or dependencies of these calculations. Below is an illustration of how a basic calculation is structured and how calculations combine into a computational graph.
 
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/basic-operation.svg" alt="Basic operation" style="width: 30%;">
   <br/>
-  <i>Figure 1: Basic operation.</i>
+  <i>Figure 1: Basic calculation.</i>
   <br/>
   <br/>
 </div> 
@@ -40,7 +40,7 @@ The methodology can be broken down conceptually in a few parts:
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/basic-operation-constants.svg" alt="Basic operation" style="width: 30%;">
   <br/>
-  <i>Figure 2: Basic operation on two constants.</i>
+  <i>Figure 2: Basic calculation on two constants.</i>
   <br/>
   <br/>
 </div> 
@@ -55,7 +55,7 @@ The methodology can be broken down conceptually in a few parts:
 </div>
 
 - **Forward Sweep or Forward Pass:**
-  During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of operations.
+  During the forward sweep, the function is evaluated at a specific point, moving through the computational graph from input to output nodes. As the function progresses, each intermediate result is sequentially recorded on a tape—a linear data structure that chronologically logs every operation and provides a step-by-step history of calculations.
   
   <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/forward-sweep.svg" alt="Forward sweep" style="width: 50%;">
@@ -66,7 +66,7 @@ The methodology can be broken down conceptually in a few parts:
 </div>
 
 - **Reverse Sweep or Reverse Pass:**
-  In the reverse sweep, the computational graph is retraced using the tape from the forward sweep, starting from the output and working backward to the inputs. Using the chain rule and the sequence of operations recorded on the tape, sensitivities for the nodes are combined to calculate the sensitivities of the function.
+  In the reverse sweep, the computational graph is retraced using the tape from the forward sweep, starting from the output and working backward to the inputs. Using the chain rule and the sequence of calculations recorded on the tape, sensitivities for the nodes are combined to calculate the sensitivities of the function.
   
 <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/reverse-sweep.svg" alt="Reverse sweep" style="width: 45%;">
@@ -83,16 +83,16 @@ The sensitivities derived from AAD represent how the function's output changes i
 
 While the foundational principles of Adjoint Algorithmic Differentiation (AAD) are powerful, a straightforward implementation might not deliver the performance required for high-frequency, large-scale computations. MASTIX Studio pioneers a cutting-edge approach to enhance efficiency and offer more versatile analytics.
 
-- **Flexible Handling of Rudimentary Operations:** Nodes performing rudimentary operations independent variables, e.g. change of sign of the notional for a leg in an interest rate swap, are kept out of the tape. This provides more flexibility in the handling of these nodes. They are referred to as *interior nodes*, since they are interior nodes in the graph.
+- **Flexible Handling of Rudimentary Operations:** Nodes performing rudimentary operations on independent variables, e.g. change of sign of the notional for a leg in an interest rate swap, are not recorded on the tape. This provides more flexibility in the handling of these nodes. The nodes are referred to as *interior nodes*, since they are interior nodes in the computational graph.
   <div align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/computation-graph-interior-nodes-v2.svg" alt="Computational graph" style="width: 40%;">
   <br/>
-  <i>Figure 6: Interior nodes that performs some rudimentary operations are handled separately. <br/> The remaining nodes in gray form the basis for the high-performance graph.</i>
+  <i>Figure 6: Interior nodes that perform some rudimentary operations are handled separately. <br/> The remaining nodes in gray form the basis for the high-performance graph.</i>
   <br/>
   <br/>
 </div>
 
-- **High-Performance Graph Construction:** The remaining interior nodes on the graph constitute the basis for the *high-performance graph*, which is highly optimized and where all operations are recorded on the tape. To optimize performance, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph—the high-performance graph. Given that the high-performance graph has selectively "hidden" certain nodes during the optimization, and that the nodes that remain on the graph are traversed during the reverse pass, these nodes are referred to as *outer reverses*.     <br/><br/>
+- **High-Performance Graph Construction:** The remaining interior nodes on the graph constitute the basis for the *high-performance graph*, which is a highly optimized graph where all operations are recorded on the tape. To optimize performance, MASTIX Studio identifies and isolates sub-graphs that can be processed more efficiently than by the conventional reverse pass. Certain sub-graphs, for instance, lend themselves better to forward-mode AD computation. This selective optimization results in a sparser, more streamlined graph—the high-performance graph. Given that the high-performance graph has selectively "hidden" certain nodes during the optimization, and that the nodes remaining on the graph are traversed during the reverse pass, these nodes are referred to as *outer reverses*.     <br/><br/>
 A sub-graph with a single input and output is an example that can be efficiently optimized using forward mode AD, i.e. by calculating the sensitivity of the sub-graph directly during the forward sweep.
   <div align="center">
     <br/>
