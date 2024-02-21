@@ -19,13 +19,13 @@ Elevate your analytics, risk management, and ALM with MASTIX Studio:
 - [Knowledge Base](#knowledge-base)
 - [Contact](#contact)
 
-## Introducing MASTIX Studio
+## Introducing MASTIX ALM Studio
 
-MASTIX Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset and liability management (ALM).
+MASTIX ALM Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset and liability management (ALM).
 
 Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance ensures that the calculations are manageable and accessible across the organization.
 
-MASTIX Studio offers:
+MASTIX ALM Studio offers:
 
 - **Consistency**: Reliable and uniform calculations for credit, market, and liquidity risk, and consistency across risk, reporting, and accounting.
 - **Speed**: Fast and detailed risk calculations for a broad range of financial instruments.
@@ -33,15 +33,15 @@ MASTIX Studio offers:
 - **Modular and Open Design**: Seamless integration with current and future systems, adding value to current processes and positioning your institution to stay ahead of the curve.
 
 ### From Contract Modeling to Holistic Risk
-From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX Studio delivers on every level:
+From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX ALM Studio delivers on every level:
 
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/mastix-studio-pyramid.svg" alt="MASTIX Studio Overview" style="width: 75%;">
 </p>
 
 
-### MASTIX Studio :rocket: vs. Typical Competitors :turtle: 
-The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
+### MASTIX ALM Studio :rocket: vs. Typical Competitors :turtle: 
+The nuances in risk management and ALM tools can significantly impact performance. Below is a concise comparison showcasing MASTIX ALM Studio's capabilities versus typical market offerings, highlighting our edge in meeting evolving financial challenges.
 
 | Feature     :star:       |  MASTIX Studio  :rocket: |  Typical Competitors :turtle: |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
@@ -54,10 +54,10 @@ The nuances in risk management and ALM tools can significantly impact performanc
 | **Cost Efficiency** | High performance and efficient data management minimize hardware and cloud expenses.  |  Reliance on *high-end cloud setups* to compensate for performance issues, resulting in higher costs.  |
 
 ### Enhancing Existing Infrastructure
-Legacy systems are often deeply rooted in processes and essential to daily operations. Replacing them isn't a simple task. Rather than requiring institutions to overhaul their existing infrastructure all at once, MASTIX Studio offers seamless integration to form a bridge between established methods and cutting-edge innovations. With MASTIX Studio: 
+Legacy systems are often deeply rooted in processes and essential to daily operations. Replacing them isn't a simple task. Rather than requiring institutions to overhaul their existing infrastructure all at once, MASTIX ALM Studio offers seamless integration to form a bridge between established methods and cutting-edge innovations. With MASTIX ALM Studio: 
 - Your analytical reach grows, complementing, not necessarily replacing, your existing tools. 
 - The potential for real-time insights is unlocked, without compromising established processes. 
-MASTIX Studio is versatile in both data consumption and result delivery. Its flexible instrument modeling ensures that any financial instrument can be represented, its flexible result delivery means that any analysis environment can consume the results.
+MASTIX ALM Studio is versatile in both data consumption and result delivery. Its flexible instrument modeling ensures that any financial instrument can be represented, its flexible result delivery means that any analysis environment can consume the results.
 <br />
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/mastix-studio-integration.svg" alt="MASTIX Studio Integration" style="width: 100%;">
@@ -66,24 +66,24 @@ MASTIX Studio is versatile in both data consumption and result delivery. Its fle
 
 ### Adjoint Algorithmic Differentiation
 
-MASTIX Studio is powered by a cutting-edge framework for Adjoint Algorithmic Differentiation (AAD). AAD is an innovative method for efficiently computing sensitivities, especially suited for high-dimensional problems such as those arising in banking and finance. For more detailed information, see our [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
+MASTIX ALM Studio is powered by a cutting-edge framework for Adjoint Algorithmic Differentiation (AAD). AAD is an innovative method for efficiently computing sensitivities, especially suited for high-dimensional problems such as those arising in banking and finance. For more detailed information, see our [Introduction to Adjoint Algorithmic Differentiation](https://github.com/mastixstudio/mastixstudio/blob/main/IntroductionToAAD.md).
 
 ## Notebooks
 
-MASTIX Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. Discover Python-based hands-on examples and practical use cases for MASTIX Studio in our [Jupyter notebook repository](https://github.com/mastixstudio/notebooks).  
+MASTIX ALM Studio can be accessed from a variety of tools, including Excel, Python, and Web applications. Discover Python-based hands-on examples and practical use cases for MASTIX ALM Studio in our [Jupyter notebook repository](https://github.com/mastixstudio/notebooks).  
 
 <br />
 <p align="center">
   <img src="https://github.com/mastixstudio/mastixstudio/blob/main/assets/images/mastix-studio-jupyter-python-net.svg" alt="MASTIX Studio Access" style="width: 50%;">
 </p>
 
-The [notebooks](https://github.com/mastixstudio/notebooks) are categorized into two types: *fundamentals* and *use cases*. While fundamentals delve into the basic building blocks of the library, use cases showcase specific features and also provide comprehensive real-world examples. This repository is updated regularly with fresh applications of MASTIX Studio.
+The [notebooks](https://github.com/mastixstudio/notebooks) are categorized into two types: *fundamentals* and *use cases*. While fundamentals delve into the basic building blocks of the library, use cases showcase specific features and also provide comprehensive real-world examples. This repository is updated regularly with fresh applications of MASTIX ALM Studio.
 
 
 
 ## Knowledge Base
 
-Explore our Knowledge Base for detailed use cases of MASTIX Studio, alongside insights on current issues in banking and finance. Updated regularly.
+Explore our Knowledge Base for detailed use cases of MASTIX ALM Studio, alongside insights on current issues in banking and finance. Updated regularly.
 
 
 [Regulatory Compliance: Mastering BCBS 239, IRRBB, BRRD, FRTB, and Beyond](https://github.com/mastixstudio/mastixstudio/blob/main/RegulatoryCompliance.md).
