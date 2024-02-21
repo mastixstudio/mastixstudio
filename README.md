@@ -4,7 +4,7 @@
 
 <br />
 
-:globe_with_meridians: **Truly Holistic Balance Sheet Management**: No silos, no inconsistencies. Every calculation is anchored in a single cash flow valuation framework. 
+:globe_with_meridians: **Holistic Balance Sheet Management**: No silos, no inconsistencies. Every calculation is anchored in a single cash flow valuation framework. 
 
 :mag:  **Full Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
 
