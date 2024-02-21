@@ -4,33 +4,30 @@
 
 <br />
 
-:globe_with_meridians: **Holistic Analytics**: Dive deep into the entire balance sheet: no silos, no inconsistencies. Every calculation anchored in a single cash flow valuation framework.  
+:globe_with_meridians: **Truly Holistic Balance Sheet Management**: No silos, no inconsistencies. Every calculation is anchored in a single cash flow valuation framework. 
 
-:mag:  **True Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
+:mag:  **Full Transparency**: Every metric and valuation is fully transparent, traceable to individual cash flows as well as to its inputs.  
 
-:rocket: **Speed that Transforms**: Not just high performance – unparalleled. Bank-wide metrics recalculated in seconds or minutes, not hours. Say goodbye to overnight waits.  
+:rocket: **Speed that Transforms**: No more waiting. Unparalleled performance means bank-wide metrics can be calculated in seconds or minutes.
 
 <br />
 
-Elevate your analytics, risk management, and ALM with MASTIX Studio:
+Elevate your risk management with MASTIX ALM Studio:
 
-- [Introducing MASTIX Studio](#introducing-mastix-studio)
+- [Introducing MASTIX ALM Studio](#introducing-mastix-alm-studio)
 - [Notebooks](#notebooks)
 - [Knowledge Base](#knowledge-base)
 - [Contact](#contact)
 
 ## Introducing MASTIX ALM Studio
 
-MASTIX ALM Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset-liability management (ALM).
+MASTIX ALM Studio is a low-code risk management software with state-of-the-art capabilities. It provides a fast-track to mastering the evolving requirements of Asset-Liability Management (ALM), including Interest Rate Risk in the Banking Book (IRRBB).
 
-Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance ensures that the calculations are manageable and accessible across the organization.
+Consistent and precise calculations of cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. The high performance engine makes calculations manageable on standard hardware and accessible throughout your organization.
 
-MASTIX ALM Studio offers:
-
-- **Consistency**: Reliable and uniform calculations for credit, market, and liquidity risk, and consistency across risk, reporting, and accounting.
-- **Speed**: Fast and detailed risk calculations for a broad range of financial instruments.
-- **Future-Proof Architecture**: Designed to exceed today's requirements and with an architecture prepared for AI implementations.
-- **Modular and Open Design**: Seamless integration with current and future systems, adding value to current processes and positioning your institution to stay ahead of the curve.
+- **Consistency**: Uniform calculations for credit, market, and liquidity risk. Consistency across risk, reporting, and accounting.
+- **Speed**: Bank-wide metrics in seconds, no high-end hardware required.
+- **Easy implementation**: Very flexible data import capabilities and results out-of-the-box, adding value without disrupting current processes.
 
 ### From Contract Modeling to Holistic Risk
 From the granular details of contract modeling to the expansive scope of holistic risk and ALM, MASTIX ALM Studio delivers on every level:
@@ -45,8 +42,8 @@ The nuances in risk management and ALM tools can significantly impact performanc
 
 | Feature     :star:       |  MASTIX Studio  :rocket: |  Typical Competitors :turtle: |
 |:----------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
-| **Consistency**                  | Values and risks anchored in a *singular cash flow and valuation framework*.              | Different valuations and risk measures calculated separately on time-consistent data.          |
-| **Performance**             | Full recalculation of *bank-wide metrics in minutes*. What-if calculations on any metric.             | *Overnight calculations of bank-wide metrics* such as LCR projections. Some incremental changes calculated intraday.  |
+| **Consistency**                  | Valuations and risk calculations anchored in a *single cash flow framework*.              | Valuations and risk calculated separately on time-consistent data.          |
+| **Performance**             | *Bank-wide metrics recalculated in seconds or minutes*. What-if analysis for any metric.             | *Overnight calculations of bank-wide metrics* such as liquididity or income projections. Incremental changes calculated intraday.  |
 | **Holistic Risk**     | Valuations and metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability with detailed calculation breakdowns. Attribution analytics to track changes.                                            | Limited insight into calculations and inadequate attribution analytics.  |
 | **Modular Design**               | Components that facilitate integrations, ensuring *resilience and adaptability*.  | Modular for selection of features of the software, yet often *lacking true flexibility* for integrations with external systems.  |
