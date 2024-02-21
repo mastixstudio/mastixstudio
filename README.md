@@ -21,7 +21,7 @@ Elevate your analytics, risk management, and ALM with MASTIX Studio:
 
 ## Introducing MASTIX ALM Studio
 
-MASTIX ALM Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset and liability management (ALM).
+MASTIX ALM Studio is a state-of-the-art risk management software designed to help you master the complexity of modern risk management and the evolving demands of asset-liability management (ALM).
 
 Detailed calculations on cash flows ensure that all aspects of credit risk, market risk and liquidity risk can be effectively addressed. High performance ensures that the calculations are manageable and accessible across the organization.
 
