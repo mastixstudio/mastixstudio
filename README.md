@@ -47,7 +47,7 @@ The nuances in risk management and ALM tools can significantly impact performanc
 | **Holistic Risk**     | Valuations and metrics calculated *consistently across risk, reporting, and accounting.*       | Siloed calculations, *risk and accounting handled separately.*  |
 | **Transparency**                 | Full traceability with detailed calculation breakdowns. Attribution analytics to track changes.                                            | Limited insight into calculations and inadequate attribution analytics.  |
 | **Modular Design**               | Components that facilitate integrations, ensuring *resilience and adaptability*.  | Modular for selection of features of the software, yet often *lacking true flexibility* for integrations with external systems.  |
-| **Future-Proof Architecture**    | Architected for tomorrow. AI-ready and prepared for sharply increased requirements.     | *Illusion of future-readiness with cloud setups*. Not ready for substantial growth in requirements and not designed for AI and machine learning. |  
+| **Future-Proof Architecture**    | Architected for tomorrow. AI-ready and prepared for increased requirements.     | *Illusion of future-readiness with cloud setups*. Not ready for substantial increase in requirements and not designed to be combined with AI and machine learning tools. |  
 | **Cost Efficiency** | High performance and efficient data management minimize hardware and cloud expenses.  |  Reliance on *high-end cloud setups* to compensate for performance issues, resulting in higher costs.  |
 
 ### Enhancing Existing Infrastructure
