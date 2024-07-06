@@ -82,7 +82,7 @@ First, the graph is traversed forward, i.e. from inputs to results. This is call
 The sensitivities derived from AD represent how the function's output changes in response to variations in each input, but it's important to understand that the sensitivities are calculated at a specific set of input values. The sensitivities, therefore, offer a snapshot of the function's behavior at a particular input point.
 
 
-## Mixed-Mode: AD Flexible and Efficient AD in MASTIX Studio
+## Mixed-Mode AD: Flexible and Efficient AD in MASTIX Studio
 
 While the foundational principles of AD are powerful, a straightforward implementation might not deliver the performance required for high-frequency, large-scale computations. MASTIX ALM Studio pioneers a cutting-edge approach that blends Forward Mode AD and AAD to enhance efficiency and offer more versatile analytics—*Mixed-Mode AD* (MMAD).
 
